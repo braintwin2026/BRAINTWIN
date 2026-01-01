@@ -31,7 +31,7 @@ permalink: /privacy/
         <h3 class="mt-4">Contact</h3>
         <p>For questions about this privacy policy, contact: <a href="mailto:braintwin@icm-institute.org">braintwin@icm-institute.org</a></p>
         
-        <p class="text-muted small mt-5">Last updated: January 2025</p>
+        <p class="text-muted small mt-5">Last updated: January 2026</p>
       </div>
     </div>
   </div>
