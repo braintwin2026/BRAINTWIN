@@ -72,13 +72,13 @@ permalink: /news/
             <h5 class="card-title">Upcoming Events</h5>
             <ul class="list-unstyled mb-0">
               <li class="mb-3 pb-3 border-bottom">
-                <span class="small text-muted d-block">Q2 2025</span>
+                <span class="small text-muted d-block">Q1 2026</span>
                 <strong>First Consortium Meeting</strong>
                 <p class="small text-muted mb-0">Paris, France</p>
               </li>
               <li class="mb-3 pb-3 border-bottom">
                 <span class="small text-muted d-block">2025</span>
-                <strong>MICCAI 2025</strong>
+                <strong>MICCAI 2026</strong>
                 <p class="small text-muted mb-0">Conference presentations</p>
               </li>
               <li>
