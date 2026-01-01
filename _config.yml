@@ -4,9 +4,8 @@ description: "Brain Research through Advanced INTegration with Wide-scale Intell
 tagline: "Digital Twins for Precision Neurology"
 
 # Site settings
-baseurl: ""
-url: "https://braintwin.github.io"
-repository: "BRAINTWIN/BRAINTWIN.github.io"
+baseurl: "/BRAINTWIN"
+url: "https://braintwin2026.github.io"
 
 # Build settings
 markdown: kramdown
