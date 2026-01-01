@@ -1,0 +1,47 @@
+<!-- Navigation -->
+<header class="site-header">
+  <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
+    <div class="container">
+      <a class="navbar-brand d-flex align-items-center" href="{{ '/' | relative_url }}">
+        <img src="{{ '/assets/images/logo.png' | relative_url }}" alt="BRAINTWIN" height="40" class="me-2" onerror="this.style.display='none'">
+        <span class="brand-text">BRAINTWIN</span>
+      </a>
+      
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" 
+              aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link {% if page.url == '/' %}active{% endif %}" href="{{ '/' | relative_url }}">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link {% if page.url == '/about/' %}active{% endif %}" href="{{ '/about/' | relative_url }}">About</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle {% if page.url contains 'work-packages' %}active{% endif %}" href="#" 
+               role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Research
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="{{ '/work-packages/' | relative_url }}">Work Packages</a></li>
+              <li><a class="dropdown-item" href="{{ '/publications/' | relative_url }}">Publications</a></li>
+              <li><a class="dropdown-item" href="{{ '/software/' | relative_url }}">Software & Data</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link {% if page.url == '/team/' %}active{% endif %}" href="{{ '/team/' | relative_url }}">Team</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link {% if page.url == '/news/' %}active{% endif %}" href="{{ '/news/' | relative_url }}">News</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link {% if page.url == '/contact/' %}active{% endif %}" href="{{ '/contact/' | relative_url }}">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+</header>

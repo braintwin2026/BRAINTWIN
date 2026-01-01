@@ -1,0 +1,65 @@
+# BRAINTWIN Project Website Configuration
+title: BRAINTWIN
+description: "Brain Research through Advanced INTegration with Wide-scale Intelligent Networks - Digital twins for precision neurology"
+tagline: "Digital Twins for Precision Neurology"
+
+# Site settings
+baseurl: ""
+url: "https://braintwin.github.io"
+repository: "BRAINTWIN/BRAINTWIN.github.io"
+
+# Build settings
+markdown: kramdown
+kramdown:
+  input: GFM
+  hard_wrap: false
+  syntax_highlighter: rouge
+
+# Theme settings
+remote_theme: pages-themes/minimal@v0.2.0
+
+# Plugins
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-feed
+
+# Collections
+collections:
+  news:
+    output: true
+    permalink: /news/:title/
+
+# Defaults
+defaults:
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "default"
+  - scope:
+      path: ""
+      type: "news"
+    values:
+      layout: "post"
+
+# Social links
+twitter_username: braintwin_eu
+github_username: BRAINTWIN
+
+# Project info
+project:
+  duration: "2025-2029"
+  funding: "ANR - France 2030"
+  program: "PEPR Sante Numerique"
+  budget: "1.6M EUR"
+  coordinator: "Dr. Agusti Alentorn"
+  institution: "Paris Brain Institute (ICM)"
+
+# Exclude from build
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - vendor
+  - node_modules

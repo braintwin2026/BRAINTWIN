@@ -1,0 +1,93 @@
+<!-- Footer -->
+<footer class="site-footer">
+  <div class="footer-main">
+    <div class="container">
+      <div class="row gy-4">
+        <!-- About Section -->
+        <div class="col-lg-4 col-md-6">
+          <div class="footer-widget">
+            <h5 class="widget-title">BRAINTWIN</h5>
+            <p class="text-light-muted">Brain Research through Advanced INTegration with Wide-scale Intelligent Networks. Building digital twins for precision neurology.</p>
+            <div class="social-links mt-3">
+              <a href="https://github.com/BRAINTWIN" target="_blank" rel="noopener" aria-label="GitHub">
+                <i class="bi bi-github"></i>
+              </a>
+              <a href="https://twitter.com/braintwin_eu" target="_blank" rel="noopener" aria-label="Twitter">
+                <i class="bi bi-twitter-x"></i>
+              </a>
+              <a href="https://www.linkedin.com/company/braintwin" target="_blank" rel="noopener" aria-label="LinkedIn">
+                <i class="bi bi-linkedin"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+        
+        <!-- Quick Links -->
+        <div class="col-lg-2 col-md-6">
+          <div class="footer-widget">
+            <h5 class="widget-title">Quick Links</h5>
+            <ul class="footer-links">
+              <li><a href="{{ '/about/' | relative_url }}">About</a></li>
+              <li><a href="{{ '/work-packages/' | relative_url }}">Work Packages</a></li>
+              <li><a href="{{ '/team/' | relative_url }}">Team</a></li>
+              <li><a href="{{ '/publications/' | relative_url }}">Publications</a></li>
+              <li><a href="{{ '/contact/' | relative_url }}">Contact</a></li>
+            </ul>
+          </div>
+        </div>
+        
+        <!-- Partners -->
+        <div class="col-lg-3 col-md-6">
+          <div class="footer-widget">
+            <h5 class="widget-title">Consortium</h5>
+            <ul class="footer-links">
+              <li><a href="https://institutducerveau-icm.org" target="_blank" rel="noopener">Paris Brain Institute (ICM)</a></li>
+              <li><a href="https://www.polytechnique.edu" target="_blank" rel="noopener">Ecole Polytechnique</a></li>
+              <li><a href="https://www.centralesupelec.fr" target="_blank" rel="noopener">CentraleSupelec</a></li>
+              <li><a href="https://www.chu-lyon.fr" target="_blank" rel="noopener">Hospices Civils de Lyon</a></li>
+              <li><a href="https://vbhi-institute.org" target="_blank" rel="noopener">VBHI Bordeaux</a></li>
+            </ul>
+          </div>
+        </div>
+        
+        <!-- Funding -->
+        <div class="col-lg-3 col-md-6">
+          <div class="footer-widget">
+            <h5 class="widget-title">Funded By</h5>
+            <div class="funding-logos">
+              <a href="https://anr.fr" target="_blank" rel="noopener" class="funding-logo">
+                <img src="{{ '/assets/images/anr_logo.png' | relative_url }}" alt="ANR" height="45">
+              </a>
+              <a href="https://www.gouvernement.fr/france-2030" target="_blank" rel="noopener" class="funding-logo">
+                <img src="{{ '/assets/images/france2030_logo.png' | relative_url }}" alt="France 2030" height="45">
+              </a>
+              <a href="https://pepr-santenum.fr" target="_blank" rel="noopener" class="funding-logo">
+                <img src="{{ '/assets/images/pepr_logo.png' | relative_url }}" alt="PEPR Sante Numerique" height="45">
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <!-- Footer Bottom -->
+  <div class="footer-bottom">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-md-6 text-center text-md-start">
+          <p class="mb-0">&copy; {{ 'now' | date: '%Y' }} BRAINTWIN Project. All rights reserved.</p>
+        </div>
+        <div class="col-md-6 text-center text-md-end">
+          <p class="mb-0">
+            <a href="{{ '/privacy/' | relative_url }}">Privacy Policy</a>
+            <span class="mx-2">|</span>
+            <a href="https://github.com/BRAINTWIN/BRAINTWIN.github.io" target="_blank" rel="noopener">
+              <i class="bi bi-github me-1"></i>Source
+            </a>
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>

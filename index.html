@@ -1,0 +1,406 @@
+---
+layout: default
+title: Home
+---
+
+<!-- Hero Section -->
+<section class="hero">
+  <div class="container">
+    <div class="row align-items-center min-vh-100">
+      <div class="col-lg-7" data-aos="fade-right">
+        <div class="hero-content">
+          <span class="hero-badge">
+            <i class="bi bi-award me-2"></i>ANR France 2030 Funded Project
+          </span>
+          <h1>BRAINTWIN</h1>
+          <p class="tagline">Brain Research through Advanced INTegration with Wide-scale Intelligent Networks</p>
+          <p class="lead">Building digital twins for precision neurology through multimodal AI, federated learning, and advanced mathematical modeling for brain tumors and cerebral small vessel disease.</p>
+          
+          <div class="d-flex flex-wrap gap-3 mt-4">
+            <a href="{{ '/about/' | relative_url }}" class="btn btn-primary btn-lg">
+              Discover the Project <i class="bi bi-arrow-right ms-2"></i>
+            </a>
+            <a href="{{ '/work-packages/' | relative_url }}" class="btn btn-outline-light btn-lg">
+              Work Packages
+            </a>
+          </div>
+          
+          <div class="hero-stats">
+            <div class="stat-item">
+              <span class="stat-number">7</span>
+              <span class="stat-label">Work Packages</span>
+            </div>
+            <div class="stat-item">
+              <span class="stat-number">6+</span>
+              <span class="stat-label">Partner Institutions</span>
+            </div>
+            <div class="stat-item">
+              <span class="stat-number">4</span>
+              <span class="stat-label">Years Duration</span>
+            </div>
+            <div class="stat-item">
+              <span class="stat-number">1.6M</span>
+              <span class="stat-label">EUR Funding</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-5 d-none d-lg-block" data-aos="fade-left">
+        <div class="hero-image">
+          <img src="{{ '/assets/images/hero.png' | relative_url }}" alt="Digital Twin Brain Visualization" class="img-fluid">
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- About Section -->
+<section class="section" id="about">
+  <div class="container">
+    <div class="row align-items-center">
+      <div class="col-lg-6 mb-4 mb-lg-0" data-aos="fade-right">
+        <h2 class="section-title">Digital Twins for Precision Neurology</h2>
+        <p class="section-subtitle mb-4">Revolutionizing brain disease treatment through AI-driven personalized medicine</p>
+        <p>BRAINTWIN is a four-year research project (2025-2029) funded by the French National Research Agency (ANR) as part of the PEPR Sante Numerique under France 2030. The project aims to create patient-specific digital twins for two major neurological conditions:</p>
+        <ul class="list-unstyled">
+          <li class="d-flex align-items-start mb-3">
+            <span class="badge bg-primary rounded-pill me-3 mt-1">1</span>
+            <div>
+              <strong>Primary Brain Tumors</strong>
+              <p class="text-muted mb-0 small">Gliomas, meningiomas, and primary CNS lymphomas</p>
+            </div>
+          </li>
+          <li class="d-flex align-items-start mb-3">
+            <span class="badge bg-primary rounded-pill me-3 mt-1">2</span>
+            <div>
+              <strong>Cerebral Small Vessel Disease (SVD)</strong>
+              <p class="text-muted mb-0 small">Leading cause of stroke and contributor to 45% of dementia cases</p>
+            </div>
+          </li>
+        </ul>
+        <a href="{{ '/about/' | relative_url }}" class="btn btn-primary mt-2">Learn More About BRAINTWIN</a>
+      </div>
+      <div class="col-lg-6" data-aos="fade-left">
+        <div class="row g-4">
+          <div class="col-6">
+            <div class="card h-100 border-0 shadow-sm">
+              <div class="card-body text-center p-4">
+                <i class="bi bi-cpu text-primary fs-1 mb-3"></i>
+                <h5>Multimodal AI</h5>
+                <p class="small text-muted mb-0">Integrating MRI, histopathology, omics, and clinical data</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-6">
+            <div class="card h-100 border-0 shadow-sm">
+              <div class="card-body text-center p-4">
+                <i class="bi bi-shield-lock text-primary fs-1 mb-3"></i>
+                <h5>Federated Learning</h5>
+                <p class="small text-muted mb-0">Privacy-preserving AI across hospitals</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-6">
+            <div class="card h-100 border-0 shadow-sm">
+              <div class="card-body text-center p-4">
+                <i class="bi bi-diagram-3 text-primary fs-1 mb-3"></i>
+                <h5>Foundation Models</h5>
+                <p class="small text-muted mb-0">Transfer learning from large biomedical datasets</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-6">
+            <div class="card h-100 border-0 shadow-sm">
+              <div class="card-body text-center p-4">
+                <i class="bi bi-graph-up-arrow text-primary fs-1 mb-3"></i>
+                <h5>Clinical Validation</h5>
+                <p class="small text-muted mb-0">Real-world deployment and evaluation</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Work Packages Section -->
+<section class="section section-light" id="work-packages">
+  <div class="container">
+    <div class="text-center mb-5" data-aos="fade-up">
+      <h2 class="section-title text-center">Work Packages</h2>
+      <p class="section-subtitle text-center">Our research is organized into seven interconnected work packages</p>
+    </div>
+    
+    <div class="row g-4">
+      <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
+        <div class="wp-card">
+          <div class="wp-card-header">
+            <span class="wp-number">WP1</span>
+            <h3>Data Integration & FAIR Platform</h3>
+          </div>
+          <div class="wp-card-body">
+            <p>Building a secure, FAIR-compliant platform for aggregating and harmonizing multimodal brain tumor and SVD datasets from multiple institutions.</p>
+            <div class="wp-lead">
+              <i class="bi bi-building me-1"></i> Lead: ICM Paris
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
+        <div class="wp-card">
+          <div class="wp-card-header" style="background: linear-gradient(135deg, #134b5f 0%, #1a5f7a 100%);">
+            <span class="wp-number">WP2</span>
+            <h3>Multimodal AI Methods</h3>
+          </div>
+          <div class="wp-card-body">
+            <p>Developing novel AI algorithms to extract features from each modality and fuse them into unified patient representations using foundation models.</p>
+            <div class="wp-lead">
+              <i class="bi bi-building me-1"></i> Lead: CentraleSupelec
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
+        <div class="wp-card">
+          <div class="wp-card-header" style="background: linear-gradient(135deg, #159895 0%, #57c5b6 100%);">
+            <span class="wp-number">WP3</span>
+            <h3>Federated Learning & Privacy</h3>
+          </div>
+          <div class="wp-card-body">
+            <p>Adapting federated learning methodologies to multimodal data, enabling privacy-preserving training across multiple hospital sites.</p>
+            <div class="wp-lead">
+              <i class="bi bi-building me-1"></i> Lead: Ecole Polytechnique
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="400">
+        <div class="wp-card">
+          <div class="wp-card-header" style="background: linear-gradient(135deg, #2e8ab8 0%, #57c5b6 100%);">
+            <span class="wp-number">WP4</span>
+            <h3>Clinical Validation: Neuro-Oncology</h3>
+          </div>
+          <div class="wp-card-body">
+            <p>Rigorous evaluation of the digital twin in brain tumor patients through retrospective and prospective studies at partner hospitals.</p>
+            <div class="wp-lead">
+              <i class="bi bi-building me-1"></i> Lead: ICM & HCL Lyon
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="500">
+        <div class="wp-card">
+          <div class="wp-card-header" style="background: linear-gradient(135deg, #0a1628 0%, #1a2744 100%);">
+            <span class="wp-number">WP5</span>
+            <h3>Clinical Validation: SVD</h3>
+          </div>
+          <div class="wp-card-body">
+            <p>Testing and validating the digital twin approach for cerebral small vessel diseases and related neurodegenerative disorders.</p>
+            <div class="wp-lead">
+              <i class="bi bi-building me-1"></i> Lead: VBHI Bordeaux
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="600">
+        <div class="wp-card">
+          <div class="wp-card-header" style="background: linear-gradient(135deg, #64748b 0%, #94a3b8 100%);">
+            <span class="wp-number">WP6 & WP7</span>
+            <h3>Dissemination & Management</h3>
+          </div>
+          <div class="wp-card-body">
+            <p>Maximizing project impact through open science, stakeholder engagement, and ensuring smooth project governance and coordination.</p>
+            <div class="wp-lead">
+              <i class="bi bi-building me-1"></i> Lead: ICM Paris
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <div class="text-center mt-5" data-aos="fade-up">
+      <a href="{{ '/work-packages/' | relative_url }}" class="btn btn-primary">View All Work Packages</a>
+    </div>
+  </div>
+</section>
+
+<!-- Innovations Section -->
+<section class="section section-dark">
+  <div class="container">
+    <div class="text-center mb-5" data-aos="fade-up">
+      <h2 class="section-title text-center" style="color: white;">Key Innovations</h2>
+      <p class="section-subtitle text-center" style="color: rgba(255,255,255,0.7);">Four major innovative features drive the project</p>
+    </div>
+    
+    <div class="row g-4">
+      <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+        <div class="d-flex">
+          <div class="flex-shrink-0">
+            <div class="bg-primary rounded-circle p-3 d-flex align-items-center justify-content-center" style="width: 70px; height: 70px;">
+              <i class="bi bi-layers fs-3 text-white"></i>
+            </div>
+          </div>
+          <div class="flex-grow-1 ms-4">
+            <h4 class="text-white">Explainable Multimodal Fusion</h4>
+            <p style="color: rgba(255,255,255,0.7);">Deep learning models integrating 3D MRI, whole-slide histology, clinical text, and genomic markers with cross-attention transformers and saliency mapping for interpretable predictions.</p>
+          </div>
+        </div>
+      </div>
+      
+      <div class="col-lg-6" data-aos="fade-up" data-aos-delay="200">
+        <div class="d-flex">
+          <div class="flex-shrink-0">
+            <div class="bg-primary rounded-circle p-3 d-flex align-items-center justify-content-center" style="width: 70px; height: 70px;">
+              <i class="bi bi-shield-check fs-3 text-white"></i>
+            </div>
+          </div>
+          <div class="flex-grow-1 ms-4">
+            <h4 class="text-white">Resilient Federated Learning</h4>
+            <p style="color: rgba(255,255,255,0.7);">GDPR-compliant training across decentralized hospital networks using robust aggregation algorithms (FedProx, Krum) and differential privacy techniques.</p>
+          </div>
+        </div>
+      </div>
+      
+      <div class="col-lg-6" data-aos="fade-up" data-aos-delay="300">
+        <div class="d-flex">
+          <div class="flex-shrink-0">
+            <div class="bg-primary rounded-circle p-3 d-flex align-items-center justify-content-center" style="width: 70px; height: 70px;">
+              <i class="bi bi-infinity fs-3 text-white"></i>
+            </div>
+          </div>
+          <div class="flex-grow-1 ms-4">
+            <h4 class="text-white">Schrodinger-Bridge Generative Modeling</h4>
+            <p style="color: rgba(255,255,255,0.7);">Advanced generative models for modeling longitudinal disease courses, imputing missing modalities, and synthesizing biologically realistic data to enhance training.</p>
+          </div>
+        </div>
+      </div>
+      
+      <div class="col-lg-6" data-aos="fade-up" data-aos-delay="400">
+        <div class="d-flex">
+          <div class="flex-shrink-0">
+            <div class="bg-primary rounded-circle p-3 d-flex align-items-center justify-content-center" style="width: 70px; height: 70px;">
+              <i class="bi bi-hospital fs-3 text-white"></i>
+            </div>
+          </div>
+          <div class="flex-grow-1 ms-4">
+            <h4 class="text-white">Cross-Domain Clinical Validation</h4>
+            <p style="color: rgba(255,255,255,0.7);">Rigorous validation in both neuro-oncology and cerebrovascular disease using retrospective and prospective studies with real-world clinical outcomes.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Partners Section -->
+<section class="section" id="partners">
+  <div class="container">
+    <div class="text-center mb-5" data-aos="fade-up">
+      <h2 class="section-title text-center">Consortium Partners</h2>
+      <p class="section-subtitle text-center">A multidisciplinary collaboration across leading French institutions</p>
+    </div>
+    
+    <div class="row g-4 justify-content-center">
+      <div class="col-6 col-md-4 col-lg-2" data-aos="fade-up" data-aos-delay="100">
+        <a href="https://institutducerveau-icm.org" target="_blank" rel="noopener" class="partner-logo">
+          <img src="{{ '/assets/images/icm_logo.png' | relative_url }}" alt="Paris Brain Institute (ICM)">
+        </a>
+      </div>
+      <div class="col-6 col-md-4 col-lg-2" data-aos="fade-up" data-aos-delay="150">
+        <a href="https://www.polytechnique.edu" target="_blank" rel="noopener" class="partner-logo">
+          <img src="{{ '/assets/images/x_logo.png' | relative_url }}" alt="Ecole Polytechnique">
+        </a>
+      </div>
+      <div class="col-6 col-md-4 col-lg-2" data-aos="fade-up" data-aos-delay="200">
+        <a href="https://www.centralesupelec.fr" target="_blank" rel="noopener" class="partner-logo">
+          <img src="{{ '/assets/images/cs_logo.png' | relative_url }}" alt="CentraleSupelec">
+        </a>
+      </div>
+      <div class="col-6 col-md-4 col-lg-2" data-aos="fade-up" data-aos-delay="250">
+        <a href="https://www.chu-lyon.fr" target="_blank" rel="noopener" class="partner-logo">
+          <img src="{{ '/assets/images/hcl_logo.png' | relative_url }}" alt="Hospices Civils de Lyon">
+        </a>
+      </div>
+      <div class="col-6 col-md-4 col-lg-2" data-aos="fade-up" data-aos-delay="300">
+        <a href="https://www.u-bordeaux.fr" target="_blank" rel="noopener" class="partner-logo">
+          <img src="{{ '/assets/images/ub_logo.png' | relative_url }}" alt="Universite de Bordeaux">
+        </a>
+      </div>
+      <div class="col-6 col-md-4 col-lg-2" data-aos="fade-up" data-aos-delay="350">
+        <a href="https://www.cnrs.fr" target="_blank" rel="noopener" class="partner-logo">
+          <img src="{{ '/assets/images/cnrs_logo.png' | relative_url }}" alt="CNRS">
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- News Section -->
+<section class="section section-light" id="news">
+  <div class="container">
+    <div class="text-center mb-5" data-aos="fade-up">
+      <h2 class="section-title text-center">Latest News</h2>
+      <p class="section-subtitle text-center">Stay updated with BRAINTWIN developments</p>
+    </div>
+    
+    <div class="row g-4">
+      <div class="col-lg-4" data-aos="fade-up" data-aos-delay="100">
+        <div class="news-card h-100">
+          <div class="card-body p-4">
+            <span class="news-date">January 2025</span>
+            <h5>Project Kickoff</h5>
+            <p class="text-muted">BRAINTWIN officially launches with the kickoff meeting bringing together all consortium partners in Paris.</p>
+            <a href="{{ '/news/' | relative_url }}" class="btn btn-sm btn-outline-primary">Read More</a>
+          </div>
+        </div>
+      </div>
+      
+      <div class="col-lg-4" data-aos="fade-up" data-aos-delay="200">
+        <div class="news-card h-100">
+          <div class="card-body p-4">
+            <span class="news-date">December 2024</span>
+            <h5>ANR Funding Approved</h5>
+            <p class="text-muted">BRAINTWIN receives funding approval from ANR under the PEPR Sante Numerique program of France 2030.</p>
+            <a href="{{ '/news/' | relative_url }}" class="btn btn-sm btn-outline-primary">Read More</a>
+          </div>
+        </div>
+      </div>
+      
+      <div class="col-lg-4" data-aos="fade-up" data-aos-delay="300">
+        <div class="news-card h-100">
+          <div class="card-body p-4">
+            <span class="news-date">Coming Soon</span>
+            <h5>PhD Positions</h5>
+            <p class="text-muted">Multiple PhD positions will be available across partner institutions. Check back for updates.</p>
+            <a href="{{ '/contact/' | relative_url }}" class="btn btn-sm btn-outline-primary">Contact Us</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <div class="text-center mt-5" data-aos="fade-up">
+      <a href="{{ '/news/' | relative_url }}" class="btn btn-primary">View All News</a>
+    </div>
+  </div>
+</section>
+
+<!-- Contact CTA -->
+<section class="section bg-gradient-primary text-white">
+  <div class="container">
+    <div class="row align-items-center">
+      <div class="col-lg-8" data-aos="fade-right">
+        <h2 class="mb-3">Interested in Collaborating?</h2>
+        <p class="lead mb-0 opacity-75">We welcome collaborations with researchers, clinicians, and industry partners working on digital health and AI for neurology.</p>
+      </div>
+      <div class="col-lg-4 text-lg-end mt-4 mt-lg-0" data-aos="fade-left">
+        <a href="{{ '/contact/' | relative_url }}" class="btn btn-light btn-lg">Get in Touch</a>
+      </div>
+    </div>
+  </div>
+</section>
