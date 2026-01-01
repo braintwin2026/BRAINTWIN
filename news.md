@@ -27,7 +27,7 @@ permalink: /news/
           <div class="card-body p-4">
             <div class="d-flex align-items-center mb-3">
               <span class="badge bg-primary me-2">Project News</span>
-              <span class="text-muted small">January 2025</span>
+              <span class="text-muted small">January 2026</span>
             </div>
             <h3>BRAINTWIN Project Officially Launches</h3>
             <p>We are excited to announce the official launch of the BRAINTWIN project! The kickoff meeting brought together all consortium partners at the Paris Brain Institute (ICM) to discuss the project roadmap, work package responsibilities, and collaboration strategies.</p>
@@ -39,7 +39,7 @@ permalink: /news/
           <div class="card-body p-4">
             <div class="d-flex align-items-center mb-3">
               <span class="badge bg-success me-2">Funding</span>
-              <span class="text-muted small">December 2024</span>
+              <span class="text-muted small">December 2025</span>
             </div>
             <h3>ANR Funding Approved for BRAINTWIN</h3>
             <p>The BRAINTWIN project has received funding approval from the French National Research Agency (ANR) as part of the PEPR Sante Numerique initiative under France 2030. The consortium will receive 1.6 million euros over 48 months to develop innovative digital twin solutions for neurological diseases.</p>
