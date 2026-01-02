@@ -132,6 +132,14 @@ permalink: /team/
         </a>
         <p class="text-center small mt-2">Paris Brain Institute (ICM)</p>
       </div>
+
+      
+      <div class="col-6 col-md-4 col-lg-3" data-aos="fade-up" data-aos-delay="100">
+        <a href="https://www.aphp.fr/" target="_blank" rel="noopener" class="partner-logo d-block">
+          <img src="{{ '/assets/images/APHP_logo.png' | relative_url }}" alt="AP-HO">
+        </a>
+        <p class="text-center small mt-2">AP-HP</p>
+      </div>
       
       <div class="col-6 col-md-4 col-lg-3" data-aos="fade-up" data-aos-delay="100">
         <a href="https://www.polytechnique.edu" target="_blank" rel="noopener" class="partner-logo d-block">
@@ -153,12 +161,19 @@ permalink: /team/
         </a>
         <p class="text-center small mt-2">Hospices Civils de Lyon</p>
       </div>
+
+      <div class="col-6 col-md-4 col-lg-3" data-aos="fade-up" data-aos-delay="300">
+        <a href="https://www.creatis.insa-lyon.fr/site/fr" target="_blank" rel="noopener" class="partner-logo d-block">
+          <img src="{{ '/assets/images/INSA_logo.png' | relative_url }}" alt="INSA Lyon">
+        </a>
+        <p class="text-center small mt-2">INSA Lyon</p>
+      </div>
       
       <div class="col-6 col-md-4 col-lg-3" data-aos="fade-up" data-aos-delay="400">
-        <a href="https://www.u-bordeaux.fr" target="_blank" rel="noopener" class="partner-logo d-block">
-          <img src="{{ '/assets/images/ub_logo.png' | relative_url }}" alt="Universite de Bordeaux">
+        <a href="https://vbhi-institute.org/" target="_blank" rel="noopener" class="partner-logo d-block">
+          <img src="{{ '/assets/images/VHBI_logo.png' | relative_url }}" alt="VHBI Bordeaux">
         </a>
-        <p class="text-center small mt-2">Universite de Bordeaux / VBHI</p>
+        <p class="text-center small mt-2">VHBI Bordeaux / VBHI</p>
       </div>
       
       <div class="col-6 col-md-4 col-lg-3" data-aos="fade-up" data-aos-delay="500">
@@ -166,20 +181,6 @@ permalink: /team/
           <img src="{{ '/assets/images/cnrs_logo.png' | relative_url }}" alt="CNRS">
         </a>
         <p class="text-center small mt-2">CNRS Rhone-Auvergne</p>
-      </div>
-      
-      <div class="col-6 col-md-4 col-lg-3" data-aos="fade-up" data-aos-delay="600">
-        <a href="https://www.aphp.fr" target="_blank" rel="noopener" class="partner-logo d-block">
-          <img src="{{ '/assets/images/placeholder.png' | relative_url }}" alt="AP-HP">
-        </a>
-        <p class="text-center small mt-2">AP-HP (Paris Public Hospitals)</p>
-      </div>
-      
-      <div class="col-6 col-md-4 col-lg-3" data-aos="fade-up" data-aos-delay="700">
-        <a href="https://www.insa-lyon.fr" target="_blank" rel="noopener" class="partner-logo d-block">
-          <img src="{{ '/assets/images/placeholder.png' | relative_url }}" alt="INSA Lyon">
-        </a>
-        <p class="text-center small mt-2">INSA Lyon / CREATIS</p>
       </div>
     </div>
     
