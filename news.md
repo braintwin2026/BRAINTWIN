@@ -95,8 +95,8 @@ permalink: /news/
             <h5 class="card-title">Stay Updated</h5>
             <p class="small text-muted">Follow us on social media for the latest updates:</p>
             <div class="d-flex gap-2">
-              <a href="https://twitter.com/braintwin_eu" target="_blank" rel="noopener" class="btn btn-outline-primary btn-sm">
-                <i class="bi bi-twitter-x"></i>
+              <a href="https://bsky.app/profile/braintwin.bsky.social" target="_blank" rel="noopener" class="text-decoration-none">
+                <i class="bi bi-cloud fs-4"></i>
               </a>
               <a href="https://github.com/BRAINTWIN" target="_blank" rel="noopener" class="btn btn-outline-primary btn-sm">
                 <i class="bi bi-github"></i>
