@@ -65,8 +65,8 @@ permalink: /contact/
               <a href="https://github.com/BRAINTWIN" target="_blank" rel="noopener" class="text-decoration-none">
                 <i class="bi bi-github fs-4"></i>
               </a>
-              <a href="https://twitter.com/braintwin_eu" target="_blank" rel="noopener" class="text-decoration-none">
-                <i class="bi bi-twitter-x fs-4"></i>
+              <a href="https://bsky.app/profile/braintwin.bsky.social" target="_blank" rel="noopener" class="text-decoration-none">
+                <i class="bi bi-cloud fs-4"></i>
               </a>
               <a href="https://www.linkedin.com/company/braintwin" target="_blank" rel="noopener" class="text-decoration-none">
                 <i class="bi bi-linkedin fs-4"></i>
