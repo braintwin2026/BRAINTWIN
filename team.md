@@ -35,10 +35,10 @@ permalink: /team/
     
           <div class="team-links" aria-label="Profile links">
             <!-- Replace # with real URLs -->
-            <a href="#" target="_blank" rel="noopener" aria-label="Google Scholar"><i class="fa-solid fa-graduation-cap"></i></a>
+            <a href="https://scholar.google.com/citations?user=O1mnDiwAAAAJ&hl=en" target="_blank" rel="noopener" aria-label="Google Scholar"><i class="fa-solid fa-graduation-cap"></i></a>
             <a href="#" target="_blank" rel="noopener" aria-label="LinkedIn"><i class="fa-brands fa-linkedin"></i></a>
-            <a href="#" target="_blank" rel="noopener" aria-label="BlueSky"><i class="bi bi-bluesky fs-4"></i></a>
-            <a href="#" target="_blank" rel="noopener" aria-label="Personal website"><i class="fa-solid fa-globe"></i></a>
+            <a href="https://bsky.app/profile/did:plc:lfh5pj7felplbp2rqxr552ef" target="_blank" rel="noopener" aria-label="BlueSky"><i class="bi bi-bluesky fs-4"></i></a>
+            <a href="https://institutducerveau.org/collaborateurs/alentorn-agusti" target="_blank" rel="noopener" aria-label="Personal website"><i class="fa-solid fa-globe"></i></a>
           </div>
         </div>
       </div>
