@@ -82,7 +82,7 @@ permalink: /news/
                 <p class="small text-muted mb-0">Conference presentations</p>
               </li>
               <li>
-                <span class="small text-muted d-block">2026</span>
+                <span class="small text-muted d-block">2027</span>
                 <strong>Workshop on Digital Twins in Neurology</strong>
                 <p class="small text-muted mb-0">ICM Paris (planned)</p>
               </li>
@@ -98,7 +98,7 @@ permalink: /news/
               <a href="https://bsky.app/profile/braintwin.bsky.social" target="_blank" rel="noopener" class="text-decoration-none">
                 <i class="bi bi-bluesky fs-4"></i>
               </a>
-              <a href="https://github.com/BRAINTWIN" target="_blank" rel="noopener" class="btn btn-outline-primary btn-sm">
+              <a href="https://github.com/braintwin2026/BRAINTWIN/" target="_blank" rel="noopener" class="btn btn-outline-primary btn-sm">
                 <i class="bi bi-github"></i>
               </a>
               <a href="https://www.linkedin.com/company/braintwin" target="_blank" rel="noopener" class="btn btn-outline-primary btn-sm">
