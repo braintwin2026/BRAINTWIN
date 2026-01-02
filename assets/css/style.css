@@ -449,6 +449,28 @@ img {
   font-size: 1.1rem;
   margin-bottom: 0.25rem;
 }
+.team-links{
+  display:flex;
+  gap:.6rem;
+  justify-content:center;
+  margin-top:.6rem;
+}
+.team-links a{
+  width:34px;height:34px;
+  display:inline-flex;
+  align-items:center;justify-content:center;
+  border-radius:999px;
+  border:1px solid rgba(0,0,0,.08);
+  color:inherit;
+  text-decoration:none;
+  transition:transform .12s ease, box-shadow .12s ease, background .12s ease;
+}
+.team-links a:hover{
+  transform:translateY(-1px);
+  box-shadow:0 6px 18px rgba(0,0,0,.08);
+  background:rgba(0,0,0,.03);
+}
+.team-links i{ font-size:1rem; }
 
 .team-role {
   color: var(--primary-color);
