@@ -38,7 +38,7 @@ permalink: /software/
               <h5 class="mb-0">FAIR Data Platform</h5>
             </div>
             <p class="text-muted small">Secure, federated data platform for multimodal brain tumor and SVD datasets with BIDS/OMOP harmonization.</p>
-            <span class="badge bg-warning text-dark">Coming 2025</span>
+            <span class="badge bg-warning text-dark">Coming 2026</span>
           </div>
         </div>
       </div>
