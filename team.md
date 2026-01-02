@@ -44,9 +44,7 @@ permalink: /team/
       </div>
     </div>
 
-    
-    <h2 class="section-title mb-5 mt-5">Work Package Leaders</h2>
-    
+        
     <h2 class="section-title mb-5 mt-5">Work Package Leaders</h2>
     
     <div class="row g-4">
