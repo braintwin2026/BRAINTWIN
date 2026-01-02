@@ -66,7 +66,7 @@ permalink: /contact/
                 <i class="bi bi-github fs-4"></i>
               </a>
               <a href="https://bsky.app/profile/braintwin.bsky.social" target="_blank" rel="noopener" class="text-decoration-none">
-                <i class="bi bi-cloud fs-4"></i>
+                <i class="bi bi-bluesky fs-4"></i>
               </a>
               <a href="https://www.linkedin.com/company/braintwin" target="_blank" rel="noopener" class="text-decoration-none">
                 <i class="bi bi-linkedin fs-4"></i>
