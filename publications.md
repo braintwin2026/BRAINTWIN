@@ -139,7 +139,7 @@ permalink: /publications/
             <h5 class="card-title">Code & Data</h5>
             <ul class="list-unstyled mb-0">
               <li class="mb-2">
-                <a href="https://github.com/BRAINTWIN" target="_blank" rel="noopener">
+                <a href="https://braintwin2026.github.io/BRAINTWIN" target="_blank" rel="noopener">
                   <i class="bi bi-github me-2"></i>GitHub Organization
                 </a>
               </li>
