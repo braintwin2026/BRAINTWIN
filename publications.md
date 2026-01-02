@@ -26,7 +26,7 @@ permalink: /publications/
         
         <div class="alert alert-info mb-5">
           <i class="bi bi-info-circle me-2"></i>
-          The BRAINTWIN project started in 2025. Publications from the project will be listed here as they become available. Below are key related publications from consortium members.
+          The BRAINTWIN project has started in 2026. Publications from the project will be listed here as they become available. Below are key related publications from consortium members.
         </div>
         
         <h3 class="mb-4">Related Publications by Consortium Members</h3>
