@@ -383,9 +383,9 @@ permalink: /team/
               <i class="fa-solid fa-globe"></i>
             </a>
           </div>
+        </div>
       </div>
-    </div>
-</div>
+   </div>
 </section>
 
 <!-- Partner Institutions -->
