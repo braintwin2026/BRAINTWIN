@@ -443,13 +443,6 @@ permalink: /team/
         </a>
         <p class="text-center small mt-2">VHBI Bordeaux / VBHI</p>
       </div>
-      
-      <div class="col-6 col-md-4 col-lg-3" data-aos="fade-up" data-aos-delay="500">
-        <a href="https://www.cnrs.fr" target="_blank" rel="noopener" class="partner-logo d-block">
-          <img src="{{ '/assets/images/cnrs_logo.png' | relative_url }}" alt="CNRS">
-        </a>
-        <p class="text-center small mt-2">CNRS Rhone-Auvergne</p>
-      </div>
     </div>
     
     <div class="alert alert-info mt-5" role="alert">
