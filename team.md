@@ -386,7 +386,6 @@ permalink: /team/
         </div>
       </div>
      </div>
-     </section>
 
 <!-- Partner Institutions -->
 <section class="section section-light">
