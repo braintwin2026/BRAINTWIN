@@ -226,7 +226,7 @@ permalink: /team/
           <p class="team-role">WP2 Collaborator – Translational Imaging &amp; Validation</p>
           <p class="team-institution">Paris Brain Institute (ICM) / Inria</p>
           <p class="small text-muted mt-2">
-            Researcher in medical imaging and learning-based modelling, bridging method development with clinical evaluation.
+            Researcher in medical imaging interested in weakly supervised learning and domain adaptation.
           </p>
     
           <div class="team-links" aria-label="Profile links">
