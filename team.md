@@ -52,7 +52,7 @@ permalink: /team/
       <!-- WP1 Lead – Clinical Neuro-Oncology -->
       <div class="col-lg-4 col-md-6" data-aos="fade-up">
         <div class="team-card">
-          <img src="{{ '/assets/images/placeholder.png' | relative_url }}" alt="Prof. François Ducray" class="team-avatar">
+          <img src="{{ '/assets/images/FD.jpeg' | relative_url }}" alt="Prof. François Ducray" class="team-avatar">
           <h4 class="team-name">Prof. François Ducray</h4>
           <p class="team-role">WP1 Lead – Clinical Neuro-Oncology</p>
           <p class="team-institution">Hospices Civils de Lyon</p>
@@ -81,7 +81,7 @@ permalink: /team/
       <!-- WP5 Lead – Cerebral Small Vessel Disease -->
       <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
         <div class="team-card">
-          <img src="{{ '/assets/images/placeholder.png' | relative_url }}" alt="Prof. Stéphanie Debette" class="team-avatar">
+          <img src="{{ '/assets/images/SD.png' | relative_url }}" alt="Prof. Stéphanie Debette" class="team-avatar">
           <h4 class="team-name">Prof. Stéphanie Debette</h4>
           <p class="team-role">WP5 Lead – Cerebral Small Vessel Disease</p>
           <p class="team-institution">Paris Brain Institute (ICM)</p>
@@ -109,7 +109,7 @@ permalink: /team/
       <!-- WP5 Co-Lead – Bio-imaging / VBHI -->
       <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
         <div class="team-card">
-          <img src="{{ '/assets/images/placeholder.png' | relative_url }}" alt="Dr. Marc Joliot" class="team-avatar">
+          <img src="{{ '/assets/images/MJ.jpeg' | relative_url }}" alt="Dr. Marc Joliot" class="team-avatar">
           <h4 class="team-name">Dr. Marc Joliot</h4>
           <p class="team-role">WP5 Co-Lead – Bio-imaging &amp; Population Neuroscience</p>
           <p class="team-institution">VBHI Institute / University of Bordeaux</p>
@@ -137,7 +137,7 @@ permalink: /team/
       <!-- WP2 Co-lead – Multimodal AI -->
       <div class="col-lg-4 col-md-6" data-aos="fade-up">
         <div class="team-card">
-          <img src="{{ '/assets/images/placeholder.png' | relative_url }}" alt="Prof. Maria Vakalopoulou" class="team-avatar">
+          <img src="{{ '/assets/images/MV.jpeg' | relative_url }}" alt="Prof. Maria Vakalopoulou" class="team-avatar">
           <h4 class="team-name">Prof. Maria Vakalopoulou</h4>
           <p class="team-role">WP2 Co-Lead – Multimodal AI</p>
           <p class="team-institution">CentraleSupélec, Univ. Paris-Saclay</p>
@@ -165,7 +165,7 @@ permalink: /team/
       <!-- WP2 Co-Lead -->
       <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
         <div class="team-card">
-          <img src="{{ '/assets/images/placeholder.png' | relative_url }}" alt="Prof. Stergios Christodoulidis" class="team-avatar">
+          <img src="{{ '/assets/images/SC.jpeg' | relative_url }}" alt="Prof. Stergios Christodoulidis" class="team-avatar">
           <h4 class="team-name">Prof. Stergios Christodoulidis</h4>
           <p class="team-role">WP2 Co-Lead – Computational Pathology</p>
           <p class="team-institution">CentraleSupélec, Univ. Paris-Saclay</p>
@@ -193,7 +193,7 @@ permalink: /team/
       <!-- WP3 Lead – Federated Learning -->
       <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
         <div class="team-card">
-          <img src="{{ '/assets/images/placeholder.png' | relative_url }}" alt="Prof. Aymeric Dieuleveut" class="team-avatar">
+          <img src="{{ '/assets/images/AD.jpeg' | relative_url }}" alt="Prof. Aymeric Dieuleveut" class="team-avatar">
           <h4 class="team-name">Prof. Aymeric Dieuleveut</h4>
           <p class="team-role">WP3 Lead – Federated Learning</p>
           <p class="team-institution">École Polytechnique</p>
@@ -221,7 +221,7 @@ permalink: /team/
       <!-- WP2 Collaborator – Translational Imaging & Validation -->
       <div class="col-lg-4 col-md-6" data-aos="fade-up">
         <div class="team-card">
-          <img src="{{ '/assets/images/placeholder.png' | relative_url }}" alt="Dr. Reuben Dorent" class="team-avatar">
+          <img src="{{ '/assets/images/RD.jpg' | relative_url }}" alt="Dr. Reuben Dorent" class="team-avatar">
           <h4 class="team-name">Dr. Reuben Dorent</h4>
           <p class="team-role">WP2 Collaborator – Translational Imaging &amp; Validation</p>
           <p class="team-institution">Paris Brain Institute (ICM) / Inria</p>
@@ -249,7 +249,7 @@ permalink: /team/
       <!-- WP1/WP2 Collaborator – Geometry & Registration -->
       <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
         <div class="team-card">
-          <img src="{{ '/assets/images/placeholder.png' | relative_url }}" alt="Prof. Maks Ovsjanikov" class="team-avatar">
+          <img src="{{ '/assets/images/MO.jpeg' | relative_url }}" alt="Prof. Maks Ovsjanikov" class="team-avatar">
           <h4 class="team-name">Prof. Maks Ovsjanikov</h4>
           <p class="team-role">WP1 &amp; WP2 Collaborator – Geometry &amp; Registration</p>
           <p class="team-institution">École Polytechnique</p>
@@ -277,7 +277,7 @@ permalink: /team/
       <!-- Ethics follow-up -->
       <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
         <div class="team-card">
-          <img src="{{ '/assets/images/placeholder.png' | relative_url }}" alt="Dr. Pierre Pouget" class="team-avatar">
+          <img src="{{ '/assets/images/PP.jpg' | relative_url }}" alt="Dr. Pierre Pouget" class="team-avatar">
           <h4 class="team-name">Dr. Pierre Pouget</h4>
           <p class="team-role">Ethics Lead – Governance &amp; Compliance</p>
           <p class="team-institution">Paris Brain Institute (ICM) / CNRS</p>
@@ -305,7 +305,7 @@ permalink: /team/
       <!-- Contributor – Multimodal Learning -->
       <div class="col-lg-4 col-md-6" data-aos="fade-up">
         <div class="team-card">
-          <img src="{{ '/assets/images/placeholder.png' | relative_url }}" alt="Prof. Vicky Kalogeiton" class="team-avatar">
+          <img src="{{ '/assets/images/VK.jpeg' | relative_url }}" alt="Prof. Vicky Kalogeiton" class="team-avatar">
           <h4 class="team-name">Prof. Vicky Kalogeiton</h4>
           <p class="team-role">Contributor – Multimodal Learning</p>
           <p class="team-institution">École Polytechnique</p>
@@ -333,7 +333,7 @@ permalink: /team/
       <!-- Contributor – Multimodal Medical Imaging -->
       <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
         <div class="team-card">
-          <img src="{{ '/assets/images/placeholder.png' | relative_url }}" alt="Dr. Carole Lartizien" class="team-avatar">
+          <img src="{{ '/assets/images/CL.jpeg' | relative_url }}" alt="Dr. Carole Lartizien" class="team-avatar">
           <h4 class="team-name">Dr. Carole Lartizien</h4>
           <p class="team-role">WP2 – Multimodal Medical Imaging</p>
           <p class="team-institution">INSA Lyon / CREATIS</p>
@@ -361,7 +361,7 @@ permalink: /team/
       <!-- Contributor – Neuroimaging & ML -->
       <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
         <div class="team-card">
-          <img src="{{ '/assets/images/placeholder.png' | relative_url }}" alt="Dr. Olivier Colliot" class="team-avatar">
+          <img src="{{ '/assets/images/OC.jpeg' | relative_url }}" alt="Dr. Olivier Colliot" class="team-avatar">
           <h4 class="team-name">Dr. Olivier Colliot</h4>
           <p class="team-role">WP2 – Neuroimaging &amp; Machine Learning</p>
           <p class="team-institution">Paris Brain Institute (ICM) / CNRS</p>
