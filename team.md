@@ -48,7 +48,7 @@ permalink: /team/
     <h2 class="section-title mb-5 mt-5">Work Package Leaders</h2>
     
     <div class="row g-4">
-      <!-- WP1 Lead - Clinical / Neuro-oncology -->
+      <!-- WP4 Co-lead - Clinical / Neuro-oncology -->
       <div class="col-lg-4 col-md-6" data-aos="fade-up">
         <div class="team-card">
           <img src="{{ '/assets/images/placeholder.png' | relative_url }}" alt="Prof. François Ducray" class="team-avatar">
@@ -74,7 +74,7 @@ permalink: /team/
           <img src="{{ '/assets/images/placeholder.png' | relative_url }}" alt="Prof. Stéphanie Debette" class="team-avatar">
           <h4 class="team-name">Prof. Stéphanie Debette</h4>
           <p class="team-role">WP5 Lead – Cerebral Small Vessel Disease</p>
-          <p class="team-institution">ICM / VBHI Bordeaux</p>
+          <p class="team-institution">Paris Brain Institute (ICM)</p>
           <p class="small text-muted mt-2">
             International expert in cerebral small vessel disease, integrating population neuroscience with clinical translation.
           </p>
@@ -93,7 +93,7 @@ permalink: /team/
         <div class="team-card">
           <img src="{{ '/assets/images/placeholder.png' | relative_url }}" alt="Prof. Maria Vakalopoulou" class="team-avatar">
           <h4 class="team-name">Prof. Maria Vakalopoulou</h4>
-          <p class="team-role">WP2 Lead – Multimodal AI</p>
+          <p class="team-role">WP2 Co-lead – Multimodal AI</p>
           <p class="team-institution">CentraleSupélec, Univ. Paris-Saclay</p>
           <p class="small text-muted mt-2">
             Expert in computational pathology and multimodal learning for clinically meaningful decision support.
@@ -153,7 +153,7 @@ permalink: /team/
         <div class="team-card">
           <img src="{{ '/assets/images/placeholder.png' | relative_url }}" alt="Dr. Reuben Dorent" class="team-avatar">
           <h4 class="team-name">Dr. Reuben Dorent</h4>
-          <p class="team-role">WP4 Lead – Translational Imaging &amp; Validation</p>
+          <p class="team-role">WP2 Collaborator – Translational Imaging &amp; Validation</p>
           <p class="team-institution">Paris Brain Institute (ICM)</p>
           <p class="small text-muted mt-2">
             Researcher in medical imaging and learning-based modelling, bridging method development with clinical evaluation.
@@ -173,7 +173,7 @@ permalink: /team/
         <div class="team-card">
           <img src="{{ '/assets/images/placeholder.png' | relative_url }}" alt="Prof. Maks Ovsjanikov" class="team-avatar">
           <h4 class="team-name">Prof. Maks Ovsjanikov</h4>
-          <p class="team-role">Work Package Lead – Geometry &amp; Registration</p>
+          <p class="team-role">WP1 and WP2 collaborator – Geometry &amp; Registration</p>
           <p class="team-institution">École Polytechnique</p>
           <p class="small text-muted mt-2">
             Specialist in geometric learning and functional mapping, enabling robust multimodal alignment across scales.
@@ -212,7 +212,7 @@ permalink: /team/
         <div class="team-card">
           <img src="{{ '/assets/images/placeholder.png' | relative_url }}" alt="Dr. Carole Lartizien" class="team-avatar">
           <h4 class="team-name">Dr. Carole Lartizien</h4>
-          <p class="team-role">Contributor – Multimodal Medical Imaging</p>
+          <p class="team-role">WP2 – Multimodal Medical Imaging</p>
           <p class="team-institution">INSA Lyon / CREATIS</p>
           <p class="small text-muted mt-2">
             Expert in AI methods for medical image analysis with emphasis on robustness, generalisation and evaluation.
@@ -231,7 +231,7 @@ permalink: /team/
         <div class="team-card">
           <img src="{{ '/assets/images/placeholder.png' | relative_url }}" alt="Dr. Olivier Colliot" class="team-avatar">
           <h4 class="team-name">Dr. Olivier Colliot</h4>
-          <p class="team-role">Contributor – Neuroimaging &amp; ML</p>
+          <p class="team-role">WP2 – Neuroimaging &amp; ML</p>
           <p class="team-institution">ICM / CNRS</p>
           <p class="small text-muted mt-2">
             Expert in neuroimaging and machine learning, supporting methodological validation and clinical relevance.
