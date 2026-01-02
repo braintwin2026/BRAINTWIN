@@ -25,7 +25,7 @@ permalink: /team/
     <div class="row g-4 mb-5">
       <div class="col-lg-4 col-md-6" data-aos="fade-up">
         <div class="team-card">
-          <img src="{{ '/assets/images/placeholder.png' | relative_url }}" alt="Dr. Agusti Alentorn" class="team-avatar">
+          <img src="{{ '/assets/images/AA.jpg' | relative_url }}" alt="Dr. Agusti Alentorn" class="team-avatar">
           <h4 class="team-name">Dr. Agusti Alentorn</h4>
           <p class="team-role">Scientific Coordinator</p>
           <p class="team-institution">Paris Brain Institute (ICM)</p>
