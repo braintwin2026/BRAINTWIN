@@ -94,7 +94,7 @@ permalink: /about/
             <table class="table table-borderless small mb-0">
               <tr>
                 <td class="text-muted">Duration:</td>
-                <td><strong>2025 - 2029 (48 months)</strong></td>
+                <td><strong>2026 - 2029 (48 months)</strong></td>
               </tr>
               <tr>
                 <td class="text-muted">Funding:</td>
