@@ -37,7 +37,7 @@ permalink: /team/
             <!-- Replace # with real URLs -->
             <a href="#" target="_blank" rel="noopener" aria-label="Google Scholar"><i class="fa-solid fa-graduation-cap"></i></a>
             <a href="#" target="_blank" rel="noopener" aria-label="LinkedIn"><i class="fa-brands fa-linkedin"></i></a>
-            <a href="#" target="_blank" rel="noopener" aria-label="BlueSky"><i class="fa-brands fa-bluesky"></i></a>
+            <a href="#" target="_blank" rel="noopener" aria-label="BlueSky"><i class="bi bi-bluesky fs-4"></i></a>
             <a href="#" target="_blank" rel="noopener" aria-label="Personal website"><i class="fa-solid fa-globe"></i></a>
           </div>
         </div>
@@ -62,7 +62,7 @@ permalink: /team/
           <div class="team-links" aria-label="Profile links">
             <a href="#" target="_blank" rel="noopener" aria-label="Google Scholar"><i class="fa-solid fa-graduation-cap"></i></a>
             <a href="#" target="_blank" rel="noopener" aria-label="LinkedIn"><i class="fa-brands fa-linkedin"></i></a>
-            <a href="#" target="_blank" rel="noopener" aria-label="BlueSky"><i class="fa-brands fa-bluesky"></i></a>
+            <a href="#" target="_blank" rel="noopener" aria-label="BlueSky"><i class="bi bi-bluesky fs-4"></i></a>
             <a href="#" target="_blank" rel="noopener" aria-label="Personal website"><i class="fa-solid fa-globe"></i></a>
           </div>
         </div>
@@ -82,7 +82,7 @@ permalink: /team/
           <div class="team-links" aria-label="Profile links">
             <a href="#" target="_blank" rel="noopener" aria-label="Google Scholar"><i class="fa-solid fa-graduation-cap"></i></a>
             <a href="#" target="_blank" rel="noopener" aria-label="LinkedIn"><i class="fa-brands fa-linkedin"></i></a>
-            <a href="#" target="_blank" rel="noopener" aria-label="BlueSky"><i class="fa-brands fa-bluesky"></i></a>
+            <a href="#" target="_blank" rel="noopener" aria-label="BlueSky"><i class="bi bi-bluesky fs-4"></i></a>
             <a href="#" target="_blank" rel="noopener" aria-label="Personal website"><i class="fa-solid fa-globe"></i></a>
           </div>
         </div>
@@ -102,7 +102,7 @@ permalink: /team/
           <div class="team-links" aria-label="Profile links">
             <a href="#" target="_blank" rel="noopener" aria-label="Google Scholar"><i class="fa-solid fa-graduation-cap"></i></a>
             <a href="#" target="_blank" rel="noopener" aria-label="LinkedIn"><i class="fa-brands fa-linkedin"></i></a>
-            <a href="#" target="_blank" rel="noopener" aria-label="BlueSky"><i class="fa-brands fa-bluesky"></i></a>
+            <a href="#" target="_blank" rel="noopener" aria-label="BlueSky"><i class="bi bi-bluesky fs-4"></i></a>
             <a href="#" target="_blank" rel="noopener" aria-label="Personal website"><i class="fa-solid fa-globe"></i></a>
           </div>
         </div>
@@ -122,7 +122,7 @@ permalink: /team/
           <div class="team-links" aria-label="Profile links">
             <a href="#" target="_blank" rel="noopener" aria-label="Google Scholar"><i class="fa-solid fa-graduation-cap"></i></a>
             <a href="#" target="_blank" rel="noopener" aria-label="LinkedIn"><i class="fa-brands fa-linkedin"></i></a>
-            <a href="#" target="_blank" rel="noopener" aria-label="BlueSky"><i class="fa-brands fa-bluesky"></i></a>
+            <a href="#" target="_blank" rel="noopener" aria-label="BlueSky"><i class="bi bi-bluesky fs-4"></i></a>
             <a href="#" target="_blank" rel="noopener" aria-label="Personal website"><i class="fa-solid fa-globe"></i></a>
           </div>
         </div>
@@ -162,7 +162,7 @@ permalink: /team/
           <div class="team-links" aria-label="Profile links">
             <a href="#" target="_blank" rel="noopener" aria-label="Google Scholar"><i class="fa-solid fa-graduation-cap"></i></a>
             <a href="#" target="_blank" rel="noopener" aria-label="LinkedIn"><i class="fa-brands fa-linkedin"></i></a>
-            <a href="#" target="_blank" rel="noopener" aria-label="BlueSky"><i class="fa-brands fa-bluesky"></i></a>
+            <a href="#" target="_blank" rel="noopener" aria-label="BlueSky"><i class="bi bi-bluesky fs-4"></i></a>
             <a href="#" target="_blank" rel="noopener" aria-label="Personal website"><i class="fa-solid fa-globe"></i></a>
           </div>
         </div>
@@ -182,7 +182,7 @@ permalink: /team/
           <div class="team-links" aria-label="Profile links">
             <a href="#" target="_blank" rel="noopener" aria-label="Google Scholar"><i class="fa-solid fa-graduation-cap"></i></a>
             <a href="#" target="_blank" rel="noopener" aria-label="LinkedIn"><i class="fa-brands fa-linkedin"></i></a>
-            <a href="#" target="_blank" rel="noopener" aria-label="BlueSky"><i class="fa-brands fa-bluesky"></i></a>
+            <a href="#" target="_blank" rel="noopener" aria-label="BlueSky"><i class="bi bi-bluesky fs-4"></i></a>
             <a href="#" target="_blank" rel="noopener" aria-label="Personal website"><i class="fa-solid fa-globe"></i></a>
           </div>
         </div>
@@ -202,7 +202,7 @@ permalink: /team/
           <div class="team-links" aria-label="Profile links">
             <a href="#" target="_blank" rel="noopener" aria-label="Google Scholar"><i class="fa-solid fa-graduation-cap"></i></a>
             <a href="#" target="_blank" rel="noopener" aria-label="LinkedIn"><i class="fa-brands fa-linkedin"></i></a>
-            <a href="#" target="_blank" rel="noopener" aria-label="BlueSky"><i class="fa-brands fa-bluesky"></i></a>
+            <a href="#" target="_blank" rel="noopener" aria-label="BlueSky"><i class="bi bi-bluesky fs-4"></i></a>
             <a href="#" target="_blank" rel="noopener" aria-label="Personal website"><i class="fa-solid fa-globe"></i></a>
           </div>
         </div>
@@ -221,7 +221,7 @@ permalink: /team/
           <div class="team-links" aria-label="Profile links">
             <a href="#" target="_blank" rel="noopener" aria-label="Google Scholar"><i class="fa-solid fa-graduation-cap"></i></a>
             <a href="#" target="_blank" rel="noopener" aria-label="LinkedIn"><i class="fa-brands fa-linkedin"></i></a>
-            <a href="#" target="_blank" rel="noopener" aria-label="BlueSky"><i class="fa-brands fa-bluesky"></i></a>
+            <a href="#" target="_blank" rel="noopener" aria-label="BlueSky"><i class="bi bi-bluesky fs-4"></i></a>
             <a href="#" target="_blank" rel="noopener" aria-label="Personal website"><i class="fa-solid fa-globe"></i></a>
           </div>
         </div>
@@ -240,7 +240,7 @@ permalink: /team/
           <div class="team-links" aria-label="Profile links">
             <a href="#" target="_blank" rel="noopener" aria-label="Google Scholar"><i class="fa-solid fa-graduation-cap"></i></a>
             <a href="#" target="_blank" rel="noopener" aria-label="LinkedIn"><i class="fa-brands fa-linkedin"></i></a>
-            <a href="#" target="_blank" rel="noopener" aria-label="BlueSky"><i class="fa-brands fa-bluesky"></i></a>
+            <a href="#" target="_blank" rel="noopener" aria-label="BlueSky"><i class="bi bi-bluesky fs-4"></i></a>
             <a href="#" target="_blank" rel="noopener" aria-label="Personal website"><i class="fa-solid fa-globe"></i></a>
           </div>
         </div>
