@@ -93,11 +93,6 @@ permalink: /contact/
               <a href="mailto:braintwin@icm-institute.org" class="btn btn-sm btn-outline-primary">Contact Us</a>
             </div>
             
-            <div class="mb-4">
-              <h6><i class="bi bi-newspaper me-2 text-primary"></i>Media Inquiries</h6>
-              <p class="small text-muted">For press and media requests, please contact the project coordinator.</p>
-            </div>
-            
             <hr>
             
             <h6 class="mt-4">Partner Institution Contacts</h6>
