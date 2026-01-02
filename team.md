@@ -21,7 +21,7 @@ permalink: /team/
 <section class="section">
   <div class="container">
     <h2 class="section-title mb-5">Project Coordination</h2>
-    
+
     <div class="row g-4 mb-5">
       <div class="col-lg-4 col-md-6" data-aos="fade-up">
         <div class="team-card">
@@ -29,95 +29,225 @@ permalink: /team/
           <h4 class="team-name">Dr. Agusti Alentorn</h4>
           <p class="team-role">Scientific Coordinator</p>
           <p class="team-institution">Paris Brain Institute (ICM)</p>
-          <p class="small text-muted mt-2">MD, PhD - Senior Neurologist, Principal Investigator specializing in neuro-oncology research</p>
-        </div>
-      </div>
-      
-      <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
-        <div class="team-card">
-          <img src="{{ '/assets/images/placeholder.png' | relative_url }}" alt="Prof. Francois Ducray" class="team-avatar">
-          <h4 class="team-name">Prof. Francois Ducray</h4>
-          <p class="team-role">Clinical Co-Lead</p>
-          <p class="team-institution">Hospices Civils de Lyon</p>
-          <p class="small text-muted mt-2">Expert in neuro-oncology, coordinates multi-center projects including PRT-K ProGlio</p>
-        </div>
-      </div>
-      
-      <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
-        <div class="team-card">
-          <img src="{{ '/assets/images/placeholder.png' | relative_url }}" alt="Prof. Stephanie Debette" class="team-avatar">
-          <h4 class="team-name">Prof. Stephanie Debette</h4>
-          <p class="team-role">SVD Lead</p>
-          <p class="team-institution">ICM / VBHI Bordeaux</p>
-          <p class="small text-muted mt-2">International expert on SVD, leads ISGC and CHARGE consortia</p>
+          <p class="small text-muted mt-2">
+            MD, PhD – Physician-scientist leading translational neuro-oncology and multimodal AI initiatives.
+          </p>
+    
+          <div class="team-links" aria-label="Profile links">
+            <!-- Replace # with real URLs -->
+            <a href="#" target="_blank" rel="noopener" aria-label="Google Scholar"><i class="fa-solid fa-graduation-cap"></i></a>
+            <a href="#" target="_blank" rel="noopener" aria-label="LinkedIn"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="#" target="_blank" rel="noopener" aria-label="BlueSky"><i class="fa-brands fa-bluesky"></i></a>
+            <a href="#" target="_blank" rel="noopener" aria-label="Personal website"><i class="fa-solid fa-globe"></i></a>
+          </div>
         </div>
       </div>
     </div>
+
+    
+    <h2 class="section-title mb-5 mt-5">Work Package Leaders</h2>
     
     <h2 class="section-title mb-5 mt-5">Work Package Leaders</h2>
     
     <div class="row g-4">
+      <!-- WP1 Lead - Clinical / Neuro-oncology -->
       <div class="col-lg-4 col-md-6" data-aos="fade-up">
+        <div class="team-card">
+          <img src="{{ '/assets/images/placeholder.png' | relative_url }}" alt="Prof. François Ducray" class="team-avatar">
+          <h4 class="team-name">Prof. François Ducray</h4>
+          <p class="team-role">WP1 Lead – Clinical Neuro-Oncology</p>
+          <p class="team-institution">Hospices Civils de Lyon</p>
+          <p class="small text-muted mt-2">
+            Clinical leader in neuro-oncology, coordinating multicentre studies and enabling high-quality translational workflows.
+          </p>
+    
+          <div class="team-links" aria-label="Profile links">
+            <a href="#" target="_blank" rel="noopener" aria-label="Google Scholar"><i class="fa-solid fa-graduation-cap"></i></a>
+            <a href="#" target="_blank" rel="noopener" aria-label="LinkedIn"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="#" target="_blank" rel="noopener" aria-label="BlueSky"><i class="fa-brands fa-bluesky"></i></a>
+            <a href="#" target="_blank" rel="noopener" aria-label="Personal website"><i class="fa-solid fa-globe"></i></a>
+          </div>
+        </div>
+      </div>
+    
+      <!-- WP5 Lead - SVD -->
+      <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
+        <div class="team-card">
+          <img src="{{ '/assets/images/placeholder.png' | relative_url }}" alt="Prof. Stéphanie Debette" class="team-avatar">
+          <h4 class="team-name">Prof. Stéphanie Debette</h4>
+          <p class="team-role">WP5 Lead – Cerebral Small Vessel Disease</p>
+          <p class="team-institution">ICM / VBHI Bordeaux</p>
+          <p class="small text-muted mt-2">
+            International expert in cerebral small vessel disease, integrating population neuroscience with clinical translation.
+          </p>
+    
+          <div class="team-links" aria-label="Profile links">
+            <a href="#" target="_blank" rel="noopener" aria-label="Google Scholar"><i class="fa-solid fa-graduation-cap"></i></a>
+            <a href="#" target="_blank" rel="noopener" aria-label="LinkedIn"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="#" target="_blank" rel="noopener" aria-label="BlueSky"><i class="fa-brands fa-bluesky"></i></a>
+            <a href="#" target="_blank" rel="noopener" aria-label="Personal website"><i class="fa-solid fa-globe"></i></a>
+          </div>
+        </div>
+      </div>
+    
+      <!-- WP2 Lead -->
+      <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
         <div class="team-card">
           <img src="{{ '/assets/images/placeholder.png' | relative_url }}" alt="Prof. Maria Vakalopoulou" class="team-avatar">
           <h4 class="team-name">Prof. Maria Vakalopoulou</h4>
-          <p class="team-role">WP2 Lead - Multimodal AI</p>
-          <p class="team-institution">CentraleSupelec, Univ. Paris-Saclay</p>
-          <p class="small text-muted mt-2">Expert in computational pathology and multimodal cancer analytics</p>
+          <p class="team-role">WP2 Lead – Multimodal AI</p>
+          <p class="team-institution">CentraleSupélec, Univ. Paris-Saclay</p>
+          <p class="small text-muted mt-2">
+            Expert in computational pathology and multimodal learning for clinically meaningful decision support.
+          </p>
+    
+          <div class="team-links" aria-label="Profile links">
+            <a href="#" target="_blank" rel="noopener" aria-label="Google Scholar"><i class="fa-solid fa-graduation-cap"></i></a>
+            <a href="#" target="_blank" rel="noopener" aria-label="LinkedIn"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="#" target="_blank" rel="noopener" aria-label="BlueSky"><i class="fa-brands fa-bluesky"></i></a>
+            <a href="#" target="_blank" rel="noopener" aria-label="Personal website"><i class="fa-solid fa-globe"></i></a>
+          </div>
         </div>
       </div>
-      
-      <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
+    
+      <!-- WP2 Co-Lead -->
+      <div class="col-lg-4 col-md-6" data-aos="fade-up">
         <div class="team-card">
           <img src="{{ '/assets/images/placeholder.png' | relative_url }}" alt="Prof. Stergios Christodoulidis" class="team-avatar">
           <h4 class="team-name">Prof. Stergios Christodoulidis</h4>
           <p class="team-role">WP2 Co-Lead</p>
-          <p class="team-institution">CentraleSupelec, Univ. Paris-Saclay</p>
-          <p class="small text-muted mt-2">Specialist in whole-slide imaging and weakly supervised learning</p>
+          <p class="team-institution">CentraleSupélec, Univ. Paris-Saclay</p>
+          <p class="small text-muted mt-2">
+            Specialist in whole-slide imaging and robust weakly-supervised learning for large-scale pathology.
+          </p>
+    
+          <div class="team-links" aria-label="Profile links">
+            <a href="#" target="_blank" rel="noopener" aria-label="Google Scholar"><i class="fa-solid fa-graduation-cap"></i></a>
+            <a href="#" target="_blank" rel="noopener" aria-label="LinkedIn"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="#" target="_blank" rel="noopener" aria-label="BlueSky"><i class="fa-brands fa-bluesky"></i></a>
+            <a href="#" target="_blank" rel="noopener" aria-label="Personal website"><i class="fa-solid fa-globe"></i></a>
+          </div>
         </div>
       </div>
-      
-      <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
+    
+      <!-- WP3 Lead -->
+      <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
         <div class="team-card">
           <img src="{{ '/assets/images/placeholder.png' | relative_url }}" alt="Prof. Aymeric Dieuleveut" class="team-avatar">
           <h4 class="team-name">Prof. Aymeric Dieuleveut</h4>
-          <p class="team-role">WP3 Lead - Federated Learning</p>
-          <p class="team-institution">Ecole Polytechnique</p>
-          <p class="small text-muted mt-2">Expert in federated optimization and privacy-preserving learning</p>
+          <p class="team-role">WP3 Lead – Federated Learning</p>
+          <p class="team-institution">École Polytechnique</p>
+          <p class="small text-muted mt-2">
+            Expert in federated optimisation and privacy-preserving learning at scale across heterogeneous institutions.
+          </p>
+    
+          <div class="team-links" aria-label="Profile links">
+            <a href="#" target="_blank" rel="noopener" aria-label="Google Scholar"><i class="fa-solid fa-graduation-cap"></i></a>
+            <a href="#" target="_blank" rel="noopener" aria-label="LinkedIn"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="#" target="_blank" rel="noopener" aria-label="BlueSky"><i class="fa-brands fa-bluesky"></i></a>
+            <a href="#" target="_blank" rel="noopener" aria-label="Personal website"><i class="fa-solid fa-globe"></i></a>
+          </div>
         </div>
       </div>
-      
-      <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
+    
+      <!-- WP4 Lead -->
+      <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
+        <div class="team-card">
+          <img src="{{ '/assets/images/placeholder.png' | relative_url }}" alt="Dr. Reuben Dorent" class="team-avatar">
+          <h4 class="team-name">Dr. Reuben Dorent</h4>
+          <p class="team-role">WP4 Lead – Translational Imaging &amp; Validation</p>
+          <p class="team-institution">Paris Brain Institute (ICM)</p>
+          <p class="small text-muted mt-2">
+            Researcher in medical imaging and learning-based modelling, bridging method development with clinical evaluation.
+          </p>
+    
+          <div class="team-links" aria-label="Profile links">
+            <a href="#" target="_blank" rel="noopener" aria-label="Google Scholar"><i class="fa-solid fa-graduation-cap"></i></a>
+            <a href="#" target="_blank" rel="noopener" aria-label="LinkedIn"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="#" target="_blank" rel="noopener" aria-label="BlueSky"><i class="fa-brands fa-bluesky"></i></a>
+            <a href="#" target="_blank" rel="noopener" aria-label="Personal website"><i class="fa-solid fa-globe"></i></a>
+          </div>
+        </div>
+      </div>
+    
+      <!-- WP1/WP2 Lead/Contributor - Geometry/Registration -->
+      <div class="col-lg-4 col-md-6" data-aos="fade-up">
+        <div class="team-card">
+          <img src="{{ '/assets/images/placeholder.png' | relative_url }}" alt="Prof. Maks Ovsjanikov" class="team-avatar">
+          <h4 class="team-name">Prof. Maks Ovsjanikov</h4>
+          <p class="team-role">Work Package Lead – Geometry &amp; Registration</p>
+          <p class="team-institution">École Polytechnique</p>
+          <p class="small text-muted mt-2">
+            Specialist in geometric learning and functional mapping, enabling robust multimodal alignment across scales.
+          </p>
+    
+          <div class="team-links" aria-label="Profile links">
+            <a href="#" target="_blank" rel="noopener" aria-label="Google Scholar"><i class="fa-solid fa-graduation-cap"></i></a>
+            <a href="#" target="_blank" rel="noopener" aria-label="LinkedIn"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="#" target="_blank" rel="noopener" aria-label="BlueSky"><i class="fa-brands fa-bluesky"></i></a>
+            <a href="#" target="_blank" rel="noopener" aria-label="Personal website"><i class="fa-solid fa-globe"></i></a>
+          </div>
+        </div>
+      </div>
+    
+      <!-- (Optional) Keep existing contributors below, with improved bios + links -->
+      <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
         <div class="team-card">
           <img src="{{ '/assets/images/placeholder.png' | relative_url }}" alt="Prof. Vicky Kalogeiton" class="team-avatar">
           <h4 class="team-name">Prof. Vicky Kalogeiton</h4>
-          <p class="team-role">WP2 Contributor</p>
-          <p class="team-institution">Ecole Polytechnique</p>
-          <p class="small text-muted mt-2">Expert in multimodal and cross-modal learning</p>
+          <p class="team-role">Contributor – Multimodal Learning</p>
+          <p class="team-institution">École Polytechnique</p>
+          <p class="small text-muted mt-2">
+            Researcher in multimodal and cross-modal representation learning for complex visual and biomedical data.
+          </p>
+    
+          <div class="team-links" aria-label="Profile links">
+            <a href="#" target="_blank" rel="noopener" aria-label="Google Scholar"><i class="fa-solid fa-graduation-cap"></i></a>
+            <a href="#" target="_blank" rel="noopener" aria-label="LinkedIn"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="#" target="_blank" rel="noopener" aria-label="BlueSky"><i class="fa-brands fa-bluesky"></i></a>
+            <a href="#" target="_blank" rel="noopener" aria-label="Personal website"><i class="fa-solid fa-globe"></i></a>
+          </div>
         </div>
       </div>
-      
-      <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="400">
+    
+      <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
         <div class="team-card">
           <img src="{{ '/assets/images/placeholder.png' | relative_url }}" alt="Dr. Carole Lartizien" class="team-avatar">
           <h4 class="team-name">Dr. Carole Lartizien</h4>
-          <p class="team-role">WP2 Contributor</p>
+          <p class="team-role">Contributor – Multimodal Medical Imaging</p>
           <p class="team-institution">INSA Lyon / CREATIS</p>
-          <p class="small text-muted mt-2">Expert in AI methods for multimodal medical image analysis</p>
+          <p class="small text-muted mt-2">
+            Expert in AI methods for medical image analysis with emphasis on robustness, generalisation and evaluation.
+          </p>
+    
+          <div class="team-links" aria-label="Profile links">
+            <a href="#" target="_blank" rel="noopener" aria-label="Google Scholar"><i class="fa-solid fa-graduation-cap"></i></a>
+            <a href="#" target="_blank" rel="noopener" aria-label="LinkedIn"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="#" target="_blank" rel="noopener" aria-label="BlueSky"><i class="fa-brands fa-bluesky"></i></a>
+            <a href="#" target="_blank" rel="noopener" aria-label="Personal website"><i class="fa-solid fa-globe"></i></a>
+          </div>
         </div>
       </div>
-      
-      <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="500">
+    
+      <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
         <div class="team-card">
           <img src="{{ '/assets/images/placeholder.png' | relative_url }}" alt="Dr. Olivier Colliot" class="team-avatar">
           <h4 class="team-name">Dr. Olivier Colliot</h4>
-          <p class="team-role">WP1 Contributor</p>
+          <p class="team-role">Contributor – Neuroimaging &amp; ML</p>
           <p class="team-institution">ICM / CNRS</p>
-          <p class="small text-muted mt-2">Expert in neuroimaging and machine learning</p>
+          <p class="small text-muted mt-2">
+            Expert in neuroimaging and machine learning, supporting methodological validation and clinical relevance.
+          </p>
+    
+          <div class="team-links" aria-label="Profile links">
+            <a href="#" target="_blank" rel="noopener" aria-label="Google Scholar"><i class="fa-solid fa-graduation-cap"></i></a>
+            <a href="#" target="_blank" rel="noopener" aria-label="LinkedIn"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="#" target="_blank" rel="noopener" aria-label="BlueSky"><i class="fa-brands fa-bluesky"></i></a>
+            <a href="#" target="_blank" rel="noopener" aria-label="Personal website"><i class="fa-solid fa-globe"></i></a>
+          </div>
         </div>
       </div>
     </div>
-  </div>
 </section>
 
 <!-- Partner Institutions -->
