@@ -136,9 +136,9 @@ permalink: /team/
       
       <div class="col-6 col-md-4 col-lg-3" data-aos="fade-up" data-aos-delay="100">
         <a href="https://www.aphp.fr/" target="_blank" rel="noopener" class="partner-logo d-block">
-          <img src="{{ '/assets/images/APHP_logo.png' | relative_url }}" alt="AP-HO">
+          <img src="{{ '/assets/images/APHP_logo.png' | relative_url }}" alt="AP-HP">
         </a>
-        <p class="text-center small mt-2">AP-HP</p>
+        <p class="text-center small mt-2">Assistance Publique Hôpitaux de Paris (AP-HP)</p>
       </div>
       
       <div class="col-6 col-md-4 col-lg-3" data-aos="fade-up" data-aos-delay="100">
