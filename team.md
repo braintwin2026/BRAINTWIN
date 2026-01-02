@@ -46,9 +46,10 @@ permalink: /team/
 
         
     <h2 class="section-title mb-5 mt-5">Work Package Leaders</h2>
-    
+
     <div class="row g-4">
-      <!-- WP4 Co-lead - Clinical / Neuro-oncology -->
+    
+      <!-- WP1 Lead – Clinical Neuro-Oncology -->
       <div class="col-lg-4 col-md-6" data-aos="fade-up">
         <div class="team-card">
           <img src="{{ '/assets/images/placeholder.png' | relative_url }}" alt="Prof. François Ducray" class="team-avatar">
@@ -60,15 +61,24 @@ permalink: /team/
           </p>
     
           <div class="team-links" aria-label="Profile links">
-            <a href="#" target="_blank" rel="noopener" aria-label="Google Scholar"><i class="fa-solid fa-graduation-cap"></i></a>
-            <a href="#" target="_blank" rel="noopener" aria-label="LinkedIn"><i class="fa-brands fa-linkedin"></i></a>
-            <a href="#" target="_blank" rel="noopener" aria-label="BlueSky"><i class="bi bi-bluesky fs-4"></i></a>
-            <a href="#" target="_blank" rel="noopener" aria-label="Personal website"><i class="fa-solid fa-globe"></i></a>
+     
+            <a href="https://scholar.google.com/scholar?q=Fran%C3%A7ois+Ducray" target="_blank" rel="noopener" aria-label="Google Scholar">
+              <i class="fa-solid fa-graduation-cap"></i>
+            </a>
+            <a href="https://www.linkedin.com/search/results/all/?keywords=Fran%C3%A7ois%20Ducray" target="_blank" rel="noopener" aria-label="LinkedIn">
+              <i class="fa-brands fa-linkedin"></i>
+            </a>
+            <a href="https://bsky.app/search?q=Fran%C3%A7ois%20Ducray" target="_blank" rel="noopener" aria-label="BlueSky">
+              <i class="bi bi-bluesky fs-4"></i>
+            </a>
+            <a href="https://www.chu-lyon.fr/service-neurologie-oncologie" target="_blank" rel="noopener" aria-label="Personal website">
+              <i class="fa-solid fa-globe"></i>
+            </a>
           </div>
         </div>
       </div>
     
-      <!-- WP5 Lead - SVD -->
+      <!-- WP5 Lead – Cerebral Small Vessel Disease -->
       <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
         <div class="team-card">
           <img src="{{ '/assets/images/placeholder.png' | relative_url }}" alt="Prof. Stéphanie Debette" class="team-avatar">
@@ -80,56 +90,108 @@ permalink: /team/
           </p>
     
           <div class="team-links" aria-label="Profile links">
-            <a href="#" target="_blank" rel="noopener" aria-label="Google Scholar"><i class="fa-solid fa-graduation-cap"></i></a>
-            <a href="#" target="_blank" rel="noopener" aria-label="LinkedIn"><i class="fa-brands fa-linkedin"></i></a>
-            <a href="#" target="_blank" rel="noopener" aria-label="BlueSky"><i class="bi bi-bluesky fs-4"></i></a>
-            <a href="#" target="_blank" rel="noopener" aria-label="Personal website"><i class="fa-solid fa-globe"></i></a>
+            <a href="https://scholar.google.com/scholar?q=St%C3%A9phanie+Debette" target="_blank" rel="noopener" aria-label="Google Scholar">
+              <i class="fa-solid fa-graduation-cap"></i>
+            </a>
+            <a href="https://fr.linkedin.com/in/stephanie-debette-23264583" target="_blank" rel="noopener" aria-label="LinkedIn">
+              <i class="fa-brands fa-linkedin"></i>
+            </a>
+            <a href="https://bsky.app/search?q=St%C3%A9phanie%20Debette" target="_blank" rel="noopener" aria-label="BlueSky">
+              <i class="bi bi-bluesky fs-4"></i>
+            </a>
+            <a href="https://smart-fhu.u-bordeaux.fr/en/Core-Partners/Coordinators/Prof-Stephanie-Debette-Coordinator-i6617.html" target="_blank" rel="noopener" aria-label="Personal website">
+              <i class="fa-solid fa-globe"></i>
+            </a>
           </div>
         </div>
       </div>
     
-      <!-- WP2 Lead -->
+      <!-- WP5 Co-Lead – Bio-imaging / VBHI -->
       <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
         <div class="team-card">
-          <img src="{{ '/assets/images/placeholder.png' | relative_url }}" alt="Prof. Maria Vakalopoulou" class="team-avatar">
-          <h4 class="team-name">Prof. Maria Vakalopoulou</h4>
-          <p class="team-role">WP2 Co-lead – Multimodal AI</p>
-          <p class="team-institution">CentraleSupélec, Univ. Paris-Saclay</p>
+          <img src="{{ '/assets/images/placeholder.png' | relative_url }}" alt="Dr. Marc Joliot" class="team-avatar">
+          <h4 class="team-name">Dr. Marc Joliot</h4>
+          <p class="team-role">WP5 Co-Lead – Bio-imaging &amp; Population Neuroscience</p>
+          <p class="team-institution">VBHI Institute / University of Bordeaux</p>
           <p class="small text-muted mt-2">
-            Expert in computational pathology and multimodal learning for clinically meaningful decision support.
+            Expert in multimodal brain imaging, supporting rigorous imaging phenotyping and cross-site harmonisation for vascular brain health.
           </p>
     
           <div class="team-links" aria-label="Profile links">
-            <a href="#" target="_blank" rel="noopener" aria-label="Google Scholar"><i class="fa-solid fa-graduation-cap"></i></a>
-            <a href="#" target="_blank" rel="noopener" aria-label="LinkedIn"><i class="fa-brands fa-linkedin"></i></a>
-            <a href="#" target="_blank" rel="noopener" aria-label="BlueSky"><i class="bi bi-bluesky fs-4"></i></a>
-            <a href="#" target="_blank" rel="noopener" aria-label="Personal website"><i class="fa-solid fa-globe"></i></a>
+            <a href="https://scholar.google.com/citations?hl=fr&user=MRcC4KcAAAAJ" target="_blank" rel="noopener" aria-label="Google Scholar">
+              <i class="fa-solid fa-graduation-cap"></i>
+            </a>
+            <a href="https://www.linkedin.com/search/results/all/?keywords=Marc%20Joliot" target="_blank" rel="noopener" aria-label="LinkedIn">
+              <i class="fa-brands fa-linkedin"></i>
+            </a>
+            <a href="https://bsky.app/search?q=Marc%20Joliot" target="_blank" rel="noopener" aria-label="BlueSky">
+              <i class="bi bi-bluesky fs-4"></i>
+            </a>
+            <a href="https://vbhi-institute.org/en/equipe/marc-joliot/" target="_blank" rel="noopener" aria-label="Personal website">
+              <i class="fa-solid fa-globe"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    
+      <!-- WP2 Co-lead – Multimodal AI -->
+      <div class="col-lg-4 col-md-6" data-aos="fade-up">
+        <div class="team-card">
+          <img src="{{ '/assets/images/placeholder.png' | relative_url }}" alt="Prof. Maria Vakalopoulou" class="team-avatar">
+          <h4 class="team-name">Prof. Maria Vakalopoulou</h4>
+          <p class="team-role">WP2 Co-Lead – Multimodal AI</p>
+          <p class="team-institution">CentraleSupélec, Univ. Paris-Saclay</p>
+          <p class="small text-muted mt-2">
+            Expert in computational imaging and multimodal learning for clinically meaningful decision support and translation.
+          </p>
+    
+          <div class="team-links" aria-label="Profile links">
+            <a href="https://scholar.google.com/citations?hl=el&user=FKUHYqMAAAAJ" target="_blank" rel="noopener" aria-label="Google Scholar">
+              <i class="fa-solid fa-graduation-cap"></i>
+            </a>
+            <a href="https://gr.linkedin.com/in/maria-vakalopoulou-8a709395" target="_blank" rel="noopener" aria-label="LinkedIn">
+              <i class="fa-brands fa-linkedin"></i>
+            </a>
+            <a href="https://bsky.app/search?q=Maria%20Vakalopoulou" target="_blank" rel="noopener" aria-label="BlueSky">
+              <i class="bi bi-bluesky fs-4"></i>
+            </a>
+            <a href="https://mariavak.github.io/" target="_blank" rel="noopener" aria-label="Personal website">
+              <i class="fa-solid fa-globe"></i>
+            </a>
           </div>
         </div>
       </div>
     
       <!-- WP2 Co-Lead -->
-      <div class="col-lg-4 col-md-6" data-aos="fade-up">
+      <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
         <div class="team-card">
           <img src="{{ '/assets/images/placeholder.png' | relative_url }}" alt="Prof. Stergios Christodoulidis" class="team-avatar">
           <h4 class="team-name">Prof. Stergios Christodoulidis</h4>
-          <p class="team-role">WP2 Co-Lead</p>
+          <p class="team-role">WP2 Co-Lead – Computational Pathology</p>
           <p class="team-institution">CentraleSupélec, Univ. Paris-Saclay</p>
           <p class="small text-muted mt-2">
-            Specialist in whole-slide imaging and robust weakly-supervised learning for large-scale pathology.
+            Specialist in whole-slide imaging and robust weakly-supervised learning for scalable pathology AI.
           </p>
     
           <div class="team-links" aria-label="Profile links">
-            <a href="#" target="_blank" rel="noopener" aria-label="Google Scholar"><i class="fa-solid fa-graduation-cap"></i></a>
-            <a href="#" target="_blank" rel="noopener" aria-label="LinkedIn"><i class="fa-brands fa-linkedin"></i></a>
-            <a href="#" target="_blank" rel="noopener" aria-label="BlueSky"><i class="bi bi-bluesky fs-4"></i></a>
-            <a href="#" target="_blank" rel="noopener" aria-label="Personal website"><i class="fa-solid fa-globe"></i></a>
+            <a href="https://scholar.google.com/citations?hl=en&user=-h5w30sAAAAJ" target="_blank" rel="noopener" aria-label="Google Scholar">
+              <i class="fa-solid fa-graduation-cap"></i>
+            </a>
+            <a href="https://www.linkedin.com/search/results/all/?keywords=Stergios%20Christodoulidis" target="_blank" rel="noopener" aria-label="LinkedIn">
+              <i class="fa-brands fa-linkedin"></i>
+            </a>
+            <a href="https://bsky.app/search?q=Stergios%20Christodoulidis" target="_blank" rel="noopener" aria-label="BlueSky">
+              <i class="bi bi-bluesky fs-4"></i>
+            </a>
+            <a href="https://stergioc.github.io/" target="_blank" rel="noopener" aria-label="Personal website">
+              <i class="fa-solid fa-globe"></i>
+            </a>
           </div>
         </div>
       </div>
     
-      <!-- WP3 Lead -->
-      <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
+      <!-- WP3 Lead – Federated Learning -->
+      <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
         <div class="team-card">
           <img src="{{ '/assets/images/placeholder.png' | relative_url }}" alt="Prof. Aymeric Dieuleveut" class="team-avatar">
           <h4 class="team-name">Prof. Aymeric Dieuleveut</h4>
@@ -140,56 +202,108 @@ permalink: /team/
           </p>
     
           <div class="team-links" aria-label="Profile links">
-            <a href="#" target="_blank" rel="noopener" aria-label="Google Scholar"><i class="fa-solid fa-graduation-cap"></i></a>
-            <a href="#" target="_blank" rel="noopener" aria-label="LinkedIn"><i class="fa-brands fa-linkedin"></i></a>
-            <a href="#" target="_blank" rel="noopener" aria-label="BlueSky"><i class="bi bi-bluesky fs-4"></i></a>
-            <a href="#" target="_blank" rel="noopener" aria-label="Personal website"><i class="fa-solid fa-globe"></i></a>
+            <a href="https://scholar.google.fr/citations?hl=en&user=ge-OinUAAAAJ" target="_blank" rel="noopener" aria-label="Google Scholar">
+              <i class="fa-solid fa-graduation-cap"></i>
+            </a>
+            <a href="https://www.linkedin.com/search/results/all/?keywords=Aymeric%20Dieuleveut" target="_blank" rel="noopener" aria-label="LinkedIn">
+              <i class="fa-brands fa-linkedin"></i>
+            </a>
+            <a href="https://bsky.app/search?q=Aymeric%20Dieuleveut" target="_blank" rel="noopener" aria-label="BlueSky">
+              <i class="bi bi-bluesky fs-4"></i>
+            </a>
+            <a href="https://www.cmap.polytechnique.fr/~aymeric.dieuleveut/" target="_blank" rel="noopener" aria-label="Personal website">
+              <i class="fa-solid fa-globe"></i>
+            </a>
           </div>
         </div>
       </div>
     
-      <!-- WP4 Lead -->
-      <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
+      <!-- WP2 Collaborator – Translational Imaging & Validation -->
+      <div class="col-lg-4 col-md-6" data-aos="fade-up">
         <div class="team-card">
           <img src="{{ '/assets/images/placeholder.png' | relative_url }}" alt="Dr. Reuben Dorent" class="team-avatar">
           <h4 class="team-name">Dr. Reuben Dorent</h4>
           <p class="team-role">WP2 Collaborator – Translational Imaging &amp; Validation</p>
-          <p class="team-institution">Paris Brain Institute (ICM)</p>
+          <p class="team-institution">Paris Brain Institute (ICM) / Inria</p>
           <p class="small text-muted mt-2">
             Researcher in medical imaging and learning-based modelling, bridging method development with clinical evaluation.
           </p>
     
           <div class="team-links" aria-label="Profile links">
-            <a href="#" target="_blank" rel="noopener" aria-label="Google Scholar"><i class="fa-solid fa-graduation-cap"></i></a>
-            <a href="#" target="_blank" rel="noopener" aria-label="LinkedIn"><i class="fa-brands fa-linkedin"></i></a>
-            <a href="#" target="_blank" rel="noopener" aria-label="BlueSky"><i class="bi bi-bluesky fs-4"></i></a>
-            <a href="#" target="_blank" rel="noopener" aria-label="Personal website"><i class="fa-solid fa-globe"></i></a>
+            <a href="https://scholar.google.com/citations?hl=fr&user=xdECLMkAAAAJ" target="_blank" rel="noopener" aria-label="Google Scholar">
+              <i class="fa-solid fa-graduation-cap"></i>
+            </a>
+            <a href="https://fr.linkedin.com/in/reuben-dorent-2a0381a6" target="_blank" rel="noopener" aria-label="LinkedIn">
+              <i class="fa-brands fa-linkedin"></i>
+            </a>
+            <a href="https://bsky.app/search?q=Reuben%20Dorent" target="_blank" rel="noopener" aria-label="BlueSky">
+              <i class="bi bi-bluesky fs-4"></i>
+            </a>
+            <a href="https://reuben.dorent.fr/" target="_blank" rel="noopener" aria-label="Personal website">
+              <i class="fa-solid fa-globe"></i>
+            </a>
           </div>
         </div>
       </div>
     
-      <!-- WP1/WP2 Lead/Contributor - Geometry/Registration -->
-      <div class="col-lg-4 col-md-6" data-aos="fade-up">
+      <!-- WP1/WP2 Collaborator – Geometry & Registration -->
+      <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
         <div class="team-card">
           <img src="{{ '/assets/images/placeholder.png' | relative_url }}" alt="Prof. Maks Ovsjanikov" class="team-avatar">
           <h4 class="team-name">Prof. Maks Ovsjanikov</h4>
-          <p class="team-role">WP1 and WP2 collaborator – Geometry &amp; Registration</p>
+          <p class="team-role">WP1 &amp; WP2 Collaborator – Geometry &amp; Registration</p>
           <p class="team-institution">École Polytechnique</p>
           <p class="small text-muted mt-2">
             Specialist in geometric learning and functional mapping, enabling robust multimodal alignment across scales.
           </p>
     
           <div class="team-links" aria-label="Profile links">
-            <a href="#" target="_blank" rel="noopener" aria-label="Google Scholar"><i class="fa-solid fa-graduation-cap"></i></a>
-            <a href="#" target="_blank" rel="noopener" aria-label="LinkedIn"><i class="fa-brands fa-linkedin"></i></a>
-            <a href="#" target="_blank" rel="noopener" aria-label="BlueSky"><i class="bi bi-bluesky fs-4"></i></a>
-            <a href="#" target="_blank" rel="noopener" aria-label="Personal website"><i class="fa-solid fa-globe"></i></a>
+            <a href="https://scholar.google.com/citations?hl=en&user=0IsSPNEAAAAJ" target="_blank" rel="noopener" aria-label="Google Scholar">
+              <i class="fa-solid fa-graduation-cap"></i>
+            </a>
+            <a href="https://www.linkedin.com/search/results/all/?keywords=Maks%20Ovsjanikov" target="_blank" rel="noopener" aria-label="LinkedIn">
+              <i class="fa-brands fa-linkedin"></i>
+            </a>
+            <a href="https://bsky.app/search?q=Maks%20Ovsjanikov" target="_blank" rel="noopener" aria-label="BlueSky">
+              <i class="bi bi-bluesky fs-4"></i>
+            </a>
+            <a href="https://ellis.eu/person/maks-ovsjanikov" target="_blank" rel="noopener" aria-label="Personal website">
+              <i class="fa-solid fa-globe"></i>
+            </a>
           </div>
         </div>
       </div>
     
-      <!-- (Optional) Keep existing contributors below, with improved bios + links -->
-      <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
+      <!-- Ethics follow-up -->
+      <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
+        <div class="team-card">
+          <img src="{{ '/assets/images/placeholder.png' | relative_url }}" alt="Dr. Pierre Pouget" class="team-avatar">
+          <h4 class="team-name">Dr. Pierre Pouget</h4>
+          <p class="team-role">Ethics Lead – Governance &amp; Compliance</p>
+          <p class="team-institution">Paris Brain Institute (ICM) / CNRS</p>
+          <p class="small text-muted mt-2">
+            Leads ethics follow-up, ensuring compliance, responsible data use, and robust governance across all work packages.
+          </p>
+    
+          <div class="team-links" aria-label="Profile links">
+            <a href="https://scholar.google.com/citations?hl=en&user=NVX3TdIAAAAJ" target="_blank" rel="noopener" aria-label="Google Scholar">
+              <i class="fa-solid fa-graduation-cap"></i>
+            </a>
+            <a href="https://www.linkedin.com/search/results/all/?keywords=Pierre%20Pouget%20ICM" target="_blank" rel="noopener" aria-label="LinkedIn">
+              <i class="fa-brands fa-linkedin"></i>
+            </a>
+            <a href="https://bsky.app/search?q=Pierre%20Pouget" target="_blank" rel="noopener" aria-label="BlueSky">
+              <i class="bi bi-bluesky fs-4"></i>
+            </a>
+            <a href="https://www.movit.paris/team-pi/pierre-pouget" target="_blank" rel="noopener" aria-label="Personal website">
+              <i class="fa-solid fa-globe"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    
+      <!-- Contributor – Multimodal Learning -->
+      <div class="col-lg-4 col-md-6" data-aos="fade-up">
         <div class="team-card">
           <img src="{{ '/assets/images/placeholder.png' | relative_url }}" alt="Prof. Vicky Kalogeiton" class="team-avatar">
           <h4 class="team-name">Prof. Vicky Kalogeiton</h4>
@@ -200,52 +314,79 @@ permalink: /team/
           </p>
     
           <div class="team-links" aria-label="Profile links">
-            <a href="#" target="_blank" rel="noopener" aria-label="Google Scholar"><i class="fa-solid fa-graduation-cap"></i></a>
-            <a href="#" target="_blank" rel="noopener" aria-label="LinkedIn"><i class="fa-brands fa-linkedin"></i></a>
-            <a href="#" target="_blank" rel="noopener" aria-label="BlueSky"><i class="bi bi-bluesky fs-4"></i></a>
-            <a href="#" target="_blank" rel="noopener" aria-label="Personal website"><i class="fa-solid fa-globe"></i></a>
+            <a href="https://scholar.google.com/citations?hl=en&user=gIRvhKkAAAAJ" target="_blank" rel="noopener" aria-label="Google Scholar">
+              <i class="fa-solid fa-graduation-cap"></i>
+            </a>
+            <a href="https://fr.linkedin.com/in/vicky-kalogeiton-00bb84158" target="_blank" rel="noopener" aria-label="LinkedIn">
+              <i class="fa-brands fa-linkedin"></i>
+            </a>
+            <a href="https://bsky.app/search?q=Vicky%20Kalogeiton" target="_blank" rel="noopener" aria-label="BlueSky">
+              <i class="bi bi-bluesky fs-4"></i>
+            </a>
+            <a href="https://vicky.kalogeiton.info/" target="_blank" rel="noopener" aria-label="Personal website">
+              <i class="fa-solid fa-globe"></i>
+            </a>
           </div>
         </div>
       </div>
     
-      <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
+      <!-- Contributor – Multimodal Medical Imaging -->
+      <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
         <div class="team-card">
           <img src="{{ '/assets/images/placeholder.png' | relative_url }}" alt="Dr. Carole Lartizien" class="team-avatar">
           <h4 class="team-name">Dr. Carole Lartizien</h4>
           <p class="team-role">WP2 – Multimodal Medical Imaging</p>
           <p class="team-institution">INSA Lyon / CREATIS</p>
           <p class="small text-muted mt-2">
-            Expert in AI methods for medical image analysis with emphasis on robustness, generalisation and evaluation.
+            Expert in AI for medical image analysis with emphasis on robustness, generalisation, and rigorous evaluation.
           </p>
     
           <div class="team-links" aria-label="Profile links">
-            <a href="#" target="_blank" rel="noopener" aria-label="Google Scholar"><i class="fa-solid fa-graduation-cap"></i></a>
-            <a href="#" target="_blank" rel="noopener" aria-label="LinkedIn"><i class="fa-brands fa-linkedin"></i></a>
-            <a href="#" target="_blank" rel="noopener" aria-label="BlueSky"><i class="bi bi-bluesky fs-4"></i></a>
-            <a href="#" target="_blank" rel="noopener" aria-label="Personal website"><i class="fa-solid fa-globe"></i></a>
+            <a href="https://scholar.google.com/scholar?q=Carole+Lartizien" target="_blank" rel="noopener" aria-label="Google Scholar">
+              <i class="fa-solid fa-graduation-cap"></i>
+            </a>
+            <a href="https://www.linkedin.com/search/results/all/?keywords=Carole%20Lartizien" target="_blank" rel="noopener" aria-label="LinkedIn">
+              <i class="fa-brands fa-linkedin"></i>
+            </a>
+            <a href="https://bsky.app/search?q=Carole%20Lartizien" target="_blank" rel="noopener" aria-label="BlueSky">
+              <i class="bi bi-bluesky fs-4"></i>
+            </a>
+            <a href="https://www.creatis.insa-lyon.fr/~lartizien/" target="_blank" rel="noopener" aria-label="Personal website">
+              <i class="fa-solid fa-globe"></i>
+            </a>
           </div>
         </div>
       </div>
     
-      <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
+      <!-- Contributor – Neuroimaging & ML -->
+      <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
         <div class="team-card">
           <img src="{{ '/assets/images/placeholder.png' | relative_url }}" alt="Dr. Olivier Colliot" class="team-avatar">
           <h4 class="team-name">Dr. Olivier Colliot</h4>
-          <p class="team-role">WP2 – Neuroimaging &amp; ML</p>
-          <p class="team-institution">ICM / CNRS</p>
+          <p class="team-role">WP2 – Neuroimaging &amp; Machine Learning</p>
+          <p class="team-institution">Paris Brain Institute (ICM) / CNRS</p>
           <p class="small text-muted mt-2">
             Expert in neuroimaging and machine learning, supporting methodological validation and clinical relevance.
           </p>
     
           <div class="team-links" aria-label="Profile links">
-            <a href="#" target="_blank" rel="noopener" aria-label="Google Scholar"><i class="fa-solid fa-graduation-cap"></i></a>
-            <a href="#" target="_blank" rel="noopener" aria-label="LinkedIn"><i class="fa-brands fa-linkedin"></i></a>
-            <a href="#" target="_blank" rel="noopener" aria-label="BlueSky"><i class="bi bi-bluesky fs-4"></i></a>
-            <a href="#" target="_blank" rel="noopener" aria-label="Personal website"><i class="fa-solid fa-globe"></i></a>
+            <a href="https://scholar.google.com/scholar?q=Olivier+Colliot" target="_blank" rel="noopener" aria-label="Google Scholar">
+              <i class="fa-solid fa-graduation-cap"></i>
+            </a>
+            <a href="https://fr.linkedin.com/in/olivier-colliot-8072235" target="_blank" rel="noopener" aria-label="LinkedIn">
+              <i class="fa-brands fa-linkedin"></i>
+            </a>
+            <a href="https://bsky.app/search?q=Olivier%20Colliot" target="_blank" rel="noopener" aria-label="BlueSky">
+              <i class="bi bi-bluesky fs-4"></i>
+            </a>
+            <a href="https://oliviercolliot.github.io/" target="_blank" rel="noopener" aria-label="Personal website">
+              <i class="fa-solid fa-globe"></i>
+            </a>
           </div>
         </div>
       </div>
     </div>
+    
 </section>
 
 <!-- Partner Institutions -->
