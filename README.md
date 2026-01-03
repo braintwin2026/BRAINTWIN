@@ -11,13 +11,7 @@ BRAINTWIN is a four-year research project (2025-2029) funded by ANR under the PE
 - **Primary Brain Tumors** (gliomas, meningiomas, CNS lymphomas)
 - **Cerebral Small Vessel Disease** (SVD)
 
-The consortium includes ICM Paris Brain Institute, Ecole Polytechnique, CentraleSupelec, Hospices Civils de Lyon, INSA Lyon and VHBI Bordeaux.
-
-### Add/Update Images
-
-1. Place images in `assets/images/`
-2. Reference them in markdown: `![Alt text]({{ '/assets/images/filename.png' | relative_url }})`
-3. Or in HTML: `<img src="{{ '/assets/images/filename.png' | relative_url }}" alt="Alt text">`
+The consortium includes ICM Paris Brain Institute, Assistance Publique Hôpitaux de Paris (AP-HP), Ecole Polytechnique, CentraleSupelec, Hospices Civils de Lyon, INSA Lyon and VHBI Bordeaux.
 
 ### Styling
 
