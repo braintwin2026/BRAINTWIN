@@ -651,6 +651,35 @@ img {
   color: var(--secondary-color);
 }
 
+.footer-counter .counter-card{
+  border: 1px solid rgba(255,255,255,0.12);
+  background: rgba(255,255,255,0.04);
+  border-radius: 14px;
+  padding: 12px 14px;
+  max-width: 260px;
+}
+
+.footer-counter .counter-label{
+  display:flex;
+  align-items:center;
+  color: rgba(255,255,255,0.88);
+  font-weight: 600;
+  letter-spacing: .01em;
+}
+
+.footer-counter .counter-value{
+  margin-top: 6px;
+  font-size: 1.55rem;
+  font-weight: 800;
+  line-height: 1.1;
+  color: #fff;
+}
+
+.footer-counter .counter-note{
+  opacity: .85;
+}
+
+
 /* Back to Top */
 .back-to-top {
   position: fixed;
