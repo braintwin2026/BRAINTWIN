@@ -3,7 +3,6 @@
   <div class="footer-main">
     <div class="container">
       <div class="row gy-4">
-
         <!-- About Section -->
         <div class="col-lg-4 col-md-6">
           <div class="footer-widget">
@@ -24,14 +23,14 @@
               </a>
             </div>
 
-            <!-- Privacy-friendly visitor counter (GoatCounter) -->
+            <!-- Visitor counter (GoatCounter visitor-counter endpoint) -->
             <div class="footer-counter mt-4" aria-label="Visitor counter">
               <div class="counter-card">
                 <div class="counter-label">
                   <i class="bi bi-graph-up me-2"></i>
                   <span>Total visits</span>
                 </div>
-                <div class="counter-value" id="gc-visits">—</div>
+                <div class="counter-value" id="gc-visits">…</div>
                 <div class="counter-note text-light-muted small mt-1">
                   Anonymous, cookie-free analytics
                 </div>
@@ -114,30 +113,32 @@
     </div>
   </div>
 
-  <!-- GoatCounter (your site) -->
+  <!-- GoatCounter tracking (your site) -->
   <script data-goatcounter="https://braintwin.goatcounter.com/count"
           async src="//gc.zgo.at/count.js"></script>
 
-  <!-- Fetch and display total visit count (fails gracefully if public counter endpoint is unavailable) -->
+  <!-- Display total visits using GoatCounter visitor-counter endpoint -->
   <script>
     (function () {
       const el = document.getElementById("gc-visits");
       if (!el) return;
 
-      // Your GoatCounter site subdomain
-      const SITE = "braintwin";
-
-      // Public counter endpoint
-      const url = "https://" + SITE + ".goatcounter.com/counter/TOTAL.json";
+      // TOTAL is a special path for site-wide totals (case-sensitive).
+      const url = "https://braintwin.goatcounter.com/counter/TOTAL.json";
 
       fetch(url, { mode: "cors", cache: "no-store" })
-        .then(r => r.ok ? r.json() : Promise.reject(r))
+        .then(r => {
+          if (!r.ok) throw new Error("HTTP " + r.status);
+          return r.json();
+        })
         .then(data => {
-          const n = (data && (data.count ?? data.total ?? data.value));
-          el.textContent = (typeof n === "number") ? n.toLocaleString() : "—";
+          // GoatCounter returns "count" as a formatted string (e.g. "1,234").
+          const v = (data && (data.count || data.count_unique)) || "0";
+          el.textContent = v;
         })
         .catch(() => {
-          el.textContent = "—";
+          // If not available yet, show a neutral fallback instead of an em dash.
+          el.textContent = "0";
         });
     })();
   </script>
