@@ -59,6 +59,9 @@ This website is part of the BRAINTWIN project. Content is copyright BRAINTWIN Co
 - **Email:** braintwin@icm-institute.org
 - **Website:** [https://braintwin2026.github.io/BRAINTWIN](https://braintwin2026.github.io/BRAINTWIN)
 
+![QR code of the BRAINTWIN website](./directory_1/directory_2/.../directory_n/plot.png)
+
+
 ---
 
 *BRAINTWIN is funded by ANR under the PEPR Sante Numerique program of France 2030.*
