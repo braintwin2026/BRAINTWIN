@@ -59,7 +59,7 @@ This website is part of the BRAINTWIN project. Content is copyright BRAINTWIN Co
 - **Email:** braintwin@icm-institute.org
 - **Website:** [https://braintwin2026.github.io/BRAINTWIN](https://braintwin2026.github.io/BRAINTWIN)
 
-![QR code of the BRAINTWIN website](assets/images/BRAINTWIN_QR_with_brain.png)
+![QR code of the BRAINTWIN website](assets/images/BRAINTWIN_QR_with_brain.png = 128x128)
 
 
 ---
