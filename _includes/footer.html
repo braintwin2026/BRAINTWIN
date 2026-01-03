@@ -3,11 +3,15 @@
   <div class="footer-main">
     <div class="container">
       <div class="row gy-4">
+
         <!-- About Section -->
         <div class="col-lg-4 col-md-6">
           <div class="footer-widget">
             <h5 class="widget-title">BRAINTWIN</h5>
-            <p class="text-light-muted">Brain Research through Advanced INTegration with Wide-scale Intelligent Networks. Building digital twins for precision neurology.</p>
+            <p class="text-light-muted">
+              Brain Research through Advanced INTegration with Wide-scale Intelligent Networks. Building digital twins for precision neurology.
+            </p>
+
             <div class="social-links mt-3">
               <a href="https://github.com/BRAINTWIN" target="_blank" rel="noopener" aria-label="GitHub">
                 <i class="bi bi-github"></i>
@@ -19,9 +23,25 @@
                 <i class="bi bi-linkedin"></i>
               </a>
             </div>
+
+            <!-- Privacy-friendly visitor counter (GoatCounter) -->
+            <div class="footer-counter mt-4" aria-label="Visitor counter">
+              <div class="counter-card">
+                <div class="counter-label">
+                  <i class="bi bi-graph-up me-2"></i>
+                  <span>Total visits</span>
+                </div>
+                <div class="counter-value" id="gc-visits">—</div>
+                <div class="counter-note text-light-muted small mt-1">
+                  Anonymous, cookie-free analytics
+                </div>
+              </div>
+            </div>
+            <!-- /counter -->
+
           </div>
         </div>
-        
+
         <!-- Quick Links -->
         <div class="col-lg-2 col-md-6">
           <div class="footer-widget">
@@ -35,7 +55,7 @@
             </ul>
           </div>
         </div>
-        
+
         <!-- Partners -->
         <div class="col-lg-3 col-md-6">
           <div class="footer-widget">
@@ -51,7 +71,7 @@
             </ul>
           </div>
         </div>
-        
+
         <!-- Funding -->
         <div class="col-lg-3 col-md-6">
           <div class="footer-widget">
@@ -69,10 +89,11 @@
             </div>
           </div>
         </div>
+
       </div>
     </div>
   </div>
-  
+
   <!-- Footer Bottom -->
   <div class="footer-bottom">
     <div class="container">
@@ -92,4 +113,32 @@
       </div>
     </div>
   </div>
+
+  <!-- GoatCounter (your site) -->
+  <script data-goatcounter="https://braintwin.goatcounter.com/count"
+          async src="//gc.zgo.at/count.js"></script>
+
+  <!-- Fetch and display total visit count (fails gracefully if public counter endpoint is unavailable) -->
+  <script>
+    (function () {
+      const el = document.getElementById("gc-visits");
+      if (!el) return;
+
+      // Your GoatCounter site subdomain
+      const SITE = "braintwin";
+
+      // Public counter endpoint
+      const url = "https://" + SITE + ".goatcounter.com/counter/TOTAL.json";
+
+      fetch(url, { mode: "cors", cache: "no-store" })
+        .then(r => r.ok ? r.json() : Promise.reject(r))
+        .then(data => {
+          const n = (data && (data.count ?? data.total ?? data.value));
+          el.textContent = (typeof n === "number") ? n.toLocaleString() : "—";
+        })
+        .catch(() => {
+          el.textContent = "—";
+        });
+    })();
+  </script>
 </footer>
