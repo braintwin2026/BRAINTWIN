@@ -65,9 +65,7 @@ permalink: /contact/
 
             <div class="mt-2 small">
               <strong>Dr. Agusti Alentorn</strong><br>
-              <span class="text-muted">Paris Brain Institute (ICM)</span><br>
-              
-              </span>
+              <span class="text-muted">Paris Brain Institute (ICM)</span><br>             
             </div>
           </div>
         </div>
