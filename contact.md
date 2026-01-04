@@ -163,12 +163,11 @@ permalink: /contact/
             Example: <code>x.y@institution</code> (replace <code>x</code>, <code>y</code>, and <code>institution</code> accordingly).
           </p>
         </div>
-  
-      </div>
+        </div>
+     </div>
     </div>
   </div>
-  </div>
-</section>
+  </section>
 
 <!-- Open Positions -->
 <section class="section section-light" id="positions">
