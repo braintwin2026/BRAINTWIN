@@ -458,7 +458,7 @@ permalink: /team/
     
     <div class="alert alert-info mt-5" role="alert">
       <i class="bi bi-info-circle me-2"></i>
-      <strong>International Collaborations:</strong> BRAINTWIN also collaborates with international consortia including ISGC (International Stroke Genomic Consortium) and CHARGE for external validation and federated learning across borders.
+      <strong>International Collaborations:</strong> BRAINTWIN is designed to catalyze new international partnerships with leading academic hospitals, research institutes, and methodological AI groups. We welcome collaborations spanning (i) clinical cohorts and multi-center validation of digital twin models in neuro-oncology and cerebrovascular disease, and (ii) methodological co-development in privacy-preserving and federated learning, multimodal foundation models, and robust evaluation benchmarks, enabling reliable cross-site generalization and broader clinical translation.
     </div>
   </div>
 </section>
