@@ -97,42 +97,43 @@ permalink: /contact/
   
         <h6 class="mt-4">Partner Institution Contacts</h6>
         <p class="small text-muted mb-3">
-          Contacts are shown as <strong>X<sub>i</sub> Y<sub>i</sub></strong>. See the note at the bottom for how to email each contact.
+          Each contact is listed by name, followed by the shorthand <strong>X<sub>i</sub> Y<sub>i</sub></strong>.
+          See the note at the bottom for how to construct institutional email addresses.
         </p>
   
         <ul class="list-unstyled small">
   
           <li class="mb-3">
             <strong>Paris Brain Institute (ICM):</strong><br>
-            X<sub>1</sub> Y<sub>1</sub>
+            Agusti Alentorn — X<sub>1</sub> Y<sub>1</sub>
           </li>
   
           <li class="mb-3">
             <strong>CentraleSupélec, Univ. Paris-Saclay:</strong><br>
-            X<sub>1</sub> Y<sub>1</sub><br>
-            X<sub>2</sub> Y<sub>2</sub>
+            Maria Vakalopoulou — X<sub>1</sub> Y<sub>1</sub><br>
+            Stergios Christodoulidis — X<sub>2</sub> Y<sub>2</sub>
           </li>
   
           <li class="mb-3">
             <strong>École Polytechnique:</strong><br>
-            X<sub>1</sub> Y<sub>1</sub><br>
-            X<sub>2</sub> Y<sub>2</sub><br>
-            X<sub>3</sub> Y<sub>3</sub>
+            Aymeric Dieuleveut — X<sub>1</sub> Y<sub>1</sub><br>
+            Vicky Kalogeiton — X<sub>2</sub> Y<sub>2</sub><br>
+            Maks Ovsjanikov — X<sub>3</sub> Y<sub>3</sub>
           </li>
   
           <li class="mb-3">
             <strong>Hospices Civils de Lyon (HCL):</strong><br>
-            X<sub>1</sub> Y<sub>1</sub>
+            François Ducray — X<sub>1</sub> Y<sub>1</sub>
           </li>
   
           <li class="mb-3">
             <strong>CREATIS-INSA Lyon:</strong><br>
-            X<sub>1</sub> Y<sub>1</sub>
+            Carole Lartizien — X<sub>1</sub> Y<sub>1</sub>
           </li>
   
           <li class="mb-3">
             <strong>VBHI Bordeaux:</strong><br>
-            X<sub>1</sub> Y<sub>1</sub>
+            Marc Joliot — X<sub>1</sub> Y<sub>1</sub>
           </li>
   
         </ul>
