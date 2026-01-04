@@ -1,26 +1,16 @@
----
-layout: default
-title: Contact
-permalink: /contact/
----
-
-<!-- Page Header -->
-<section class="page-header">
-  <div class="container">
-    <nav aria-label="breadcrumb">
-      <ol class="breadcrumb">
-        <li class="breadcrumb-item"><a href="{{ '/' | relative_url }}">Home</a></li>
-        <li class="breadcrumb-item active" aria-current="page">Contact</li>
-      </ol>
-    </nav>
-    <h1>Contact Us</h1>
-  </div>
-</section>
-
 <!-- Contact Content -->
-<section class="section">
+<section class="section" id="contact">
   <div class="container">
-    <div class="row g-4">
+
+    <!-- IMPORTANT:
+      The placement issues you see (Open Positions appearing as a “floating” block and overlapping/offset)
+      almost always come from either:
+        (1) missing/extra closing tags earlier, OR
+        (2) a custom CSS rule on .section / .section-light / .container / .row that changes positioning.
+      This chunk is fully balanced (all tags closed) and uses a clear 2-column grid + fixed widths.
+    -->
+
+    <div class="row g-4 align-items-start">
 
       <!-- LEFT COLUMN -->
       <div class="col-lg-7">
@@ -50,7 +40,6 @@ permalink: /contact/
           </div>
         </div>
 
-        <!-- Address (more compact + visually stable) -->
         <div class="card border-0 shadow-sm mb-4">
           <div class="card-body p-4">
             <h5 class="mb-2"><i class="bi bi-geo-alt-fill text-primary me-2"></i>Address</h5>
@@ -92,7 +81,7 @@ permalink: /contact/
       <!-- RIGHT COLUMN -->
       <div class="col-lg-5">
 
-        <!-- Quick Links / Contacts -->
+        <!-- QUICK LINKS + CONTACTS -->
         <div class="card border-0 shadow-sm mb-4">
           <div class="card-body p-4">
             <h5 class="card-title mb-4">Quick Links</h5>
@@ -118,25 +107,30 @@ permalink: /contact/
                 <strong>Paris Brain Institute (ICM):</strong><br>
                 Agusti Alentorn — X<sub>1</sub> Y<sub>1</sub>
               </li>
+
               <li class="mb-3">
                 <strong>CentraleSupélec, Univ. Paris-Saclay:</strong><br>
                 Maria Vakalopoulou — X<sub>1</sub> Y<sub>1</sub><br>
                 Stergios Christodoulidis — X<sub>2</sub> Y<sub>2</sub>
               </li>
+
               <li class="mb-3">
                 <strong>École Polytechnique:</strong><br>
                 Aymeric Dieuleveut — X<sub>1</sub> Y<sub>1</sub><br>
                 Vicky Kalogeiton — X<sub>2</sub> Y<sub>2</sub><br>
                 Maks Ovsjanikov — X<sub>3</sub> Y<sub>3</sub>
               </li>
+
               <li class="mb-3">
                 <strong>Hospices Civils de Lyon (HCL):</strong><br>
                 François Ducray — X<sub>1</sub> Y<sub>1</sub>
               </li>
+
               <li class="mb-3">
                 <strong>CREATIS-INSA Lyon:</strong><br>
                 Carole Lartizien — X<sub>1</sub> Y<sub>1</sub>
               </li>
+
               <li class="mb-0">
                 <strong>VBHI Bordeaux:</strong><br>
                 Marc Joliot — X<sub>1</sub> Y<sub>1</sub>
@@ -168,90 +162,97 @@ permalink: /contact/
                 Example: <code>x.y@institution</code> (replace <code>x</code>, <code>y</code>, and <code>institution</code> accordingly).
               </p>
             </div>
-
           </div>
         </div>
 
-        <!-- Open Positions (NOW INSIDE RIGHT COLUMN, BELOW CONTACTS) -->
+        <!-- OPEN POSITIONS (RIGHT COLUMN, FIXED WIDTH, NO CENTERING THAT BREAKS FLOW) -->
         <div class="card border-0 shadow-sm" id="positions">
           <div class="card-body p-4">
             <div class="d-flex align-items-center justify-content-between mb-3">
               <h5 class="mb-0"><i class="bi bi-briefcase me-2 text-primary"></i>Open Positions</h5>
-              <span class="badge bg-info text-dark">Updated regularly</span>
+              <span class="badge bg-warning text-dark">Coming soon</span>
             </div>
 
-            <div class="alert alert-info small mb-3">
-              <i class="bi bi-info-circle me-2"></i>
-              Positions will be posted here as they become available. You can already express interest via email.
+            <div class="alert alert-info small mb-3 d-flex gap-2 align-items-start">
+              <i class="bi bi-info-circle mt-1"></i>
+              <div>
+                <strong>Current status:</strong> positions are being finalised. If you are interested, you can already reach out to the coordinator and we will
+                route your enquiry to the relevant partner.
+              </div>
             </div>
 
-            <!-- Position item -->
+            <!-- Position 1 -->
             <div class="border rounded-3 p-3 mb-3">
               <div class="d-flex justify-content-between align-items-start gap-3">
-                <div>
+                <div class="flex-grow-1">
                   <div class="d-flex flex-wrap gap-2 mb-2">
                     <span class="badge bg-success">PhD</span>
                     <span class="badge bg-warning text-dark">Coming soon</span>
                   </div>
                   <h6 class="mb-1">Multimodal Deep Learning for Brain Tumors</h6>
-                  <p class="text-muted small mb-0">CentraleSupélec, Univ. Paris-Saclay</p>
+                  <p class="text-muted small mb-0">
+                    <i class="bi bi-geo-alt me-1"></i>CentraleSupélec, Univ. Paris-Saclay
+                  </p>
                 </div>
                 <a class="btn btn-sm btn-outline-primary"
                    href="mailto:braintwin@icm-institute.org?subject=BRAINTWIN%20-%20Interest%20in%20PhD%20(Multimodal%20DL)">
-                  <i class="bi bi-envelope me-1"></i>Interest
+                  <i class="bi bi-envelope me-1"></i>Express interest
                 </a>
               </div>
             </div>
 
-            <!-- Position item -->
+            <!-- Position 2 -->
             <div class="border rounded-3 p-3 mb-3">
               <div class="d-flex justify-content-between align-items-start gap-3">
-                <div>
+                <div class="flex-grow-1">
                   <div class="d-flex flex-wrap gap-2 mb-2">
                     <span class="badge bg-success">PhD</span>
                     <span class="badge bg-warning text-dark">Coming soon</span>
                   </div>
                   <h6 class="mb-1">Federated Learning for Medical AI</h6>
-                  <p class="text-muted small mb-0">École Polytechnique, Paris</p>
+                  <p class="text-muted small mb-0">
+                    <i class="bi bi-geo-alt me-1"></i>École Polytechnique, Paris
+                  </p>
                 </div>
                 <a class="btn btn-sm btn-outline-primary"
                    href="mailto:braintwin@icm-institute.org?subject=BRAINTWIN%20-%20Interest%20in%20PhD%20(Federated%20Learning)">
-                  <i class="bi bi-envelope me-1"></i>Interest
+                  <i class="bi bi-envelope me-1"></i>Express interest
                 </a>
               </div>
             </div>
 
-            <!-- Position item -->
+            <!-- Position 3 -->
             <div class="border rounded-3 p-3">
               <div class="d-flex justify-content-between align-items-start gap-3">
-                <div>
+                <div class="flex-grow-1">
                   <div class="d-flex flex-wrap gap-2 mb-2">
                     <span class="badge bg-primary">Postdoc</span>
                     <span class="badge bg-warning text-dark">Coming soon</span>
                   </div>
                   <h6 class="mb-1">Clinical Validation of Digital Twins</h6>
-                  <p class="text-muted small mb-0">Paris Brain Institute (ICM)</p>
+                  <p class="text-muted small mb-0">
+                    <i class="bi bi-geo-alt me-1"></i>Paris Brain Institute (ICM)
+                  </p>
                 </div>
                 <a class="btn btn-sm btn-outline-primary"
                    href="mailto:braintwin@icm-institute.org?subject=BRAINTWIN%20-%20Interest%20in%20Postdoc%20(Clinical%20Validation)">
-                  <i class="bi bi-envelope me-1"></i>Interest
+                  <i class="bi bi-envelope me-1"></i>Express interest
                 </a>
               </div>
             </div>
 
-            <div class="text-center mt-4">
+            <div class="mt-4">
               <a href="mailto:braintwin@icm-institute.org?subject=BRAINTWIN%20-%20General%20Interest%20(Open%20Positions)"
                  class="btn btn-primary w-100">
-                <i class="bi bi-envelope me-2"></i>Express Interest
+                <i class="bi bi-envelope me-2"></i>Contact the consortium
               </a>
-              <p class="small text-muted mt-2 mb-0">
+              <p class="small text-muted text-center mt-2 mb-0">
                 Please include a short CV and a few lines about your interests.
               </p>
             </div>
 
           </div>
         </div>
-        <!-- /Open Positions -->
 
       </div>
       <!-- /RIGHT COLUMN -->
@@ -259,3 +260,13 @@ permalink: /contact/
     </div>
   </div>
 </section>
+
+<!-- OPTIONAL (recommended) CSS PATCH:
+     Put this in assets/css/style.css (NOT inline) to prevent any “floating/overlap” effects
+     if your theme has aggressive positioning rules.
+-->
+<!--
+.section { position: relative; z-index: 1; }
+#positions { position: relative; z-index: 1; }
+.site-footer { position: relative; z-index: 2; }
+-->
