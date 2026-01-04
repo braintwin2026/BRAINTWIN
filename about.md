@@ -17,12 +17,11 @@ permalink: /about/
   </div>
 </section>
 
-<!-- Main Content -->
+<!-- Main Content (left narrative, unchanged) -->
 <section class="section">
   <div class="container">
-    <div class="row">
-      <!-- Main column -->
-      <div class="col-lg-8">
+    <div class="row justify-content-center">
+      <div class="col-lg-10 col-xl-9">
         <h2>Project Overview</h2>
         <p class="lead">
           BRAINTWIN (Brain Research through Advanced INTegration with Wide-scale Intelligent Networks) is a four-year research project developing digital twin technology for precision neurology.
@@ -99,9 +98,20 @@ permalink: /about/
             </div>
           </div>
         </div>
-      </div>
 
-      <!-- Sidebar -->
+      </div><!-- /col -->
+    </div><!-- /row -->
+  </div><!-- /container -->
+</section>
+
+<!-- Right-side blocks ABOVE the Project Timeline (as requested) -->
+<section class="section pt-0">
+  <div class="container">
+    <div class="row">
+      <!-- left spacer (keeps the blocks on the right on large screens) -->
+      <div class="d-none d-lg-block col-lg-8"></div>
+
+      <!-- right column -->
       <div class="col-lg-4">
         <!-- 1) Project Details -->
         <div class="card border-0 shadow-sm mb-4">
@@ -132,7 +142,7 @@ permalink: /about/
           </div>
         </div>
 
-        <!-- 2) Related Projects (moved directly below Project Details) -->
+        <!-- 2) Related Projects -->
         <div class="card border-0 shadow-sm mb-4">
           <div class="card-body">
             <h5 class="card-title">Related Projects</h5>
@@ -161,7 +171,7 @@ permalink: /about/
           </div>
         </div>
 
-        <!-- 3) Get in Touch (moved below Related Projects) -->
+        <!-- 3) Get in Touch -->
         <div class="card border-0 bg-primary text-white">
           <div class="card-body">
             <h5 class="card-title text-white">Get in Touch</h5>
@@ -169,13 +179,12 @@ permalink: /about/
             <a href="{{ '/contact/' | relative_url }}" class="btn btn-light btn-sm">Contact</a>
           </div>
         </div>
-      </div>
-      <!-- /Sidebar -->
-    </div>
-  </div>
+      </div><!-- /col-lg-4 -->
+    </div><!-- /row -->
+  </div><!-- /container -->
 </section>
 
-<!-- Timeline -->
+<!-- Timeline (unchanged) -->
 <section class="section section-light">
   <div class="container">
     <h2 class="section-title text-center mb-5">Project Timeline</h2>
