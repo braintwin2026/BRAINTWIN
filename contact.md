@@ -1,3 +1,23 @@
+---
+layout: default
+title: Contact
+permalink: /contact/
+---
+
+<!-- Page Header -->
+<section class="page-header">
+  <div class="container">
+    <nav aria-label="breadcrumb">
+      <ol class="breadcrumb">
+        <li class="breadcrumb-item"><a href="{{ '/' | relative_url }}">Home</a></li>
+        <li class="breadcrumb-item active" aria-current="page">Contact</li>
+      </ol>
+    </nav>
+    <h1>Contact Us</h1>
+  </div>
+</section>
+
+
 <!-- Contact Content -->
 <section class="section" id="contact">
   <div class="container">
