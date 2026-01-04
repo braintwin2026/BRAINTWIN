@@ -185,60 +185,132 @@ permalink: /contact/
 <!-- Open Positions -->
 <section class="section section-light" id="positions">
   <div class="container">
-    <h2 class="section-title text-center mb-5">Open Positions</h2>
-    
+
+    <!-- Header -->
     <div class="row justify-content-center">
-      <div class="col-lg-8">
-        <div class="alert alert-info mb-4">
-          <i class="bi bi-info-circle me-2"></i>
-          The BRAINTWIN project is recruiting talented researchers. Positions will be posted here as they become available.
+      <div class="col-lg-9">
+        <div class="text-center mb-4">
+          <h2 class="section-title mb-2">Open Positions</h2>
+          <p class="text-muted mb-0">
+            Opportunities across BRAINTWIN partner institutions will be posted here as they become available.
+          </p>
         </div>
-        
-        <div class="card border-0 shadow-sm mb-3">
-          <div class="card-body">
-            <div class="d-flex justify-content-between align-items-start">
-              <div>
-                <span class="badge bg-success mb-2">PhD Position</span>
-                <h5>Multimodal Deep Learning for Brain Tumors</h5>
-                <p class="text-muted small mb-2">CentraleSupelec, Paris-Saclay</p>
-              </div>
-              <span class="badge bg-warning text-dark">Coming Soon</span>
-            </div>
+
+        <!-- Info banner -->
+        <div class="alert alert-info d-flex align-items-start gap-2 mb-4">
+          <i class="bi bi-info-circle fs-5 mt-1"></i>
+          <div class="small">
+            <strong>Current status:</strong> positions are being finalised. If you are interested, you can already reach out to the coordinator and we will
+            route your enquiry to the relevant partner.
           </div>
         </div>
-        
-        <div class="card border-0 shadow-sm mb-3">
-          <div class="card-body">
-            <div class="d-flex justify-content-between align-items-start">
-              <div>
-                <span class="badge bg-success mb-2">PhD Position</span>
-                <h5>Federated Learning for Medical AI</h5>
-                <p class="text-muted small mb-2">Ecole Polytechnique, Paris</p>
+      </div>
+    </div>
+
+    <!-- Cards grid (better spacing, avoids huge vertical blocks) -->
+    <div class="row justify-content-center g-3">
+      <div class="col-lg-9">
+        <div class="row g-3">
+
+          <!-- Position 1 -->
+          <div class="col-12">
+            <div class="card border-0 shadow-sm position-card">
+              <div class="card-body p-4">
+                <div class="d-flex flex-column flex-md-row justify-content-between align-items-start gap-3">
+                  <div class="flex-grow-1">
+                    <div class="d-flex flex-wrap align-items-center gap-2 mb-2">
+                      <span class="badge bg-success">PhD</span>
+                      <span class="badge bg-warning text-dark">Coming soon</span>
+                    </div>
+                    <h5 class="mb-1">Multimodal Deep Learning for Brain Tumors</h5>
+                    <p class="text-muted small mb-0">
+                      <i class="bi bi-geo-alt me-1"></i>CentraleSupélec, Univ. Paris-Saclay
+                    </p>
+                  </div>
+                  <div class="text-md-end">
+                    <a href="mailto:braintwin@icm-institute.org?subject=BRAINTWIN%20-%20Interest%20in%20PhD%20(Multimodal%20DL)"
+                       class="btn btn-sm btn-outline-primary">
+                      <i class="bi bi-envelope me-1"></i>Express interest
+                    </a>
+                  </div>
+                </div>
               </div>
-              <span class="badge bg-warning text-dark">Coming Soon</span>
             </div>
           </div>
-        </div>
-        
-        <div class="card border-0 shadow-sm mb-3">
-          <div class="card-body">
-            <div class="d-flex justify-content-between align-items-start">
-              <div>
-                <span class="badge bg-primary mb-2">Postdoc Position</span>
-                <h5>Clinical Validation of Digital Twins</h5>
-                <p class="text-muted small mb-2">ICM Paris Brain Institute</p>
+
+          <!-- Position 2 -->
+          <div class="col-12">
+            <div class="card border-0 shadow-sm position-card">
+              <div class="card-body p-4">
+                <div class="d-flex flex-column flex-md-row justify-content-between align-items-start gap-3">
+                  <div class="flex-grow-1">
+                    <div class="d-flex flex-wrap align-items-center gap-2 mb-2">
+                      <span class="badge bg-success">PhD</span>
+                      <span class="badge bg-warning text-dark">Coming soon</span>
+                    </div>
+                    <h5 class="mb-1">Federated Learning for Medical AI</h5>
+                    <p class="text-muted small mb-0">
+                      <i class="bi bi-geo-alt me-1"></i>École Polytechnique, Paris
+                    </p>
+                  </div>
+                  <div class="text-md-end">
+                    <a href="mailto:braintwin@icm-institute.org?subject=BRAINTWIN%20-%20Interest%20in%20PhD%20(Federated%20Learning)"
+                       class="btn btn-sm btn-outline-primary">
+                      <i class="bi bi-envelope me-1"></i>Express interest
+                    </a>
+                  </div>
+                </div>
               </div>
-              <span class="badge bg-warning text-dark">Coming Soon</span>
             </div>
           </div>
+
+          <!-- Position 3 -->
+          <div class="col-12">
+            <div class="card border-0 shadow-sm position-card">
+              <div class="card-body p-4">
+                <div class="d-flex flex-column flex-md-row justify-content-between align-items-start gap-3">
+                  <div class="flex-grow-1">
+                    <div class="d-flex flex-wrap align-items-center gap-2 mb-2">
+                      <span class="badge bg-primary">Postdoc</span>
+                      <span class="badge bg-warning text-dark">Coming soon</span>
+                    </div>
+                    <h5 class="mb-1">Clinical Validation of Digital Twins</h5>
+                    <p class="text-muted small mb-0">
+                      <i class="bi bi-geo-alt me-1"></i>Paris Brain Institute (ICM)
+                    </p>
+                  </div>
+                  <div class="text-md-end">
+                    <a href="mailto:braintwin@icm-institute.org?subject=BRAINTWIN%20-%20Interest%20in%20Postdoc%20(Clinical%20Validation)"
+                       class="btn btn-sm btn-outline-primary">
+                      <i class="bi bi-envelope me-1"></i>Express interest
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
         </div>
-        
-        <p class="text-center mt-4">
-          <a href="mailto:braintwin@icm-institute.org" class="btn btn-primary">
-            <i class="bi bi-envelope me-2"></i>Express Interest
+
+        <!-- CTA (reduced vertical whitespace, more compact) -->
+        <div class="text-center mt-4">
+          <a href="mailto:braintwin@icm-institute.org?subject=BRAINTWIN%20-%20General%20Interest%20(Open%20Positions)"
+             class="btn btn-primary">
+            <i class="bi bi-envelope me-2"></i>Contact the consortium
           </a>
-        </p>
+          <p class="small text-muted mt-2 mb-0">
+            Please include a short CV and a few lines about your interests.
+          </p>
+        </div>
+
       </div>
     </div>
   </div>
 </section>
+
+<!-- Optional: compact styling (put in your main CSS file) -->
+<style>
+  /* Keeps cards visually consistent and avoids excessive vertical space */
+  .position-card .badge { letter-spacing: .01em; }
+  .position-card h5 { line-height: 1.2; }
+</style>
