@@ -20,17 +20,23 @@ permalink: /publications/
 <!-- Publications -->
 <section class="section">
   <div class="container">
-    <div class="row">
+    <!-- Stable layout (same pattern as About/News) -->
+    <div class="row g-4 align-items-start">
+
+      <!-- Main content -->
       <div class="col-lg-8">
-        <p class="lead mb-5">Scientific publications from the BRAINTWIN project and related work by consortium members.</p>
-        
-        <div class="alert alert-info mb-5">
+        <p class="lead mb-4">
+          Scientific publications from the BRAINTWIN project and related work by consortium members.
+        </p>
+
+        <div class="alert alert-info mb-4">
           <i class="bi bi-info-circle me-2"></i>
-          The BRAINTWIN project has started in 2026. Publications from the project will be listed here as they become available. Below are key related publications from consortium members.
+          The BRAINTWIN project has started in 2026. Publications from the project will be listed here as they become available.
+          Below are key related publications from consortium members.
         </div>
-        
+
         <h3 class="mb-4">Related Publications by Consortium Members</h3>
-        
+
         <div class="publication-list">
           <div class="card mb-3 border-0 shadow-sm">
             <div class="card-body">
@@ -43,7 +49,7 @@ permalink: /publications/
               </a>
             </div>
           </div>
-          
+
           <div class="card mb-3 border-0 shadow-sm">
             <div class="card-body">
               <span class="badge bg-primary mb-2">2024</span>
@@ -55,7 +61,7 @@ permalink: /publications/
               </a>
             </div>
           </div>
-          
+
           <div class="card mb-3 border-0 shadow-sm">
             <div class="card-body">
               <span class="badge bg-primary mb-2">2023</span>
@@ -67,7 +73,7 @@ permalink: /publications/
               </a>
             </div>
           </div>
-          
+
           <div class="card mb-3 border-0 shadow-sm">
             <div class="card-body">
               <span class="badge bg-primary mb-2">2023</span>
@@ -79,7 +85,7 @@ permalink: /publications/
               </a>
             </div>
           </div>
-          
+
           <div class="card mb-3 border-0 shadow-sm">
             <div class="card-body">
               <span class="badge bg-secondary mb-2">2022</span>
@@ -91,7 +97,7 @@ permalink: /publications/
               </a>
             </div>
           </div>
-          
+
           <div class="card mb-3 border-0 shadow-sm">
             <div class="card-body">
               <span class="badge bg-secondary mb-2">2021</span>
@@ -104,9 +110,10 @@ permalink: /publications/
             </div>
           </div>
         </div>
-        
+
         <h3 class="mb-4 mt-5">Search Publications</h3>
-        <p>Find more publications from BRAINTWIN consortium members:</p>
+        <p class="mb-3">Find more publications from BRAINTWIN consortium members:</p>
+
         <div class="d-flex flex-wrap gap-2">
           <a href="https://hal.science/search/index?q=braintwin" target="_blank" rel="noopener" class="btn btn-outline-primary">
             <i class="bi bi-search me-2"></i>Search on HAL
@@ -119,13 +126,14 @@ permalink: /publications/
           </a>
         </div>
       </div>
-      
-      <!-- Sidebar -->
+
+      <!-- Sidebar (right column) -->
       <div class="col-lg-4">
+        <!-- Publication Stats (top) -->
         <div class="card border-0 shadow-sm mb-4">
           <div class="card-body">
             <h5 class="card-title">Publication Stats</h5>
-            <p class="text-muted small">Target publications by project end:</p>
+            <p class="text-muted small mb-3">Target outputs by project end:</p>
             <ul class="list-unstyled mb-0">
               <li class="mb-2"><i class="bi bi-journal-text text-primary me-2"></i> 5+ journal publications</li>
               <li class="mb-2"><i class="bi bi-file-earmark-slides text-primary me-2"></i> 10+ conference presentations</li>
@@ -133,7 +141,8 @@ permalink: /publications/
             </ul>
           </div>
         </div>
-        
+
+        <!-- Code & Data (directly below Publication Stats) -->
         <div class="card border-0 shadow-sm mb-4">
           <div class="card-body">
             <h5 class="card-title">Code & Data</h5>
@@ -156,7 +165,8 @@ permalink: /publications/
             </ul>
           </div>
         </div>
-        
+
+        <!-- Submit Publication (bottom) -->
         <div class="card border-0 bg-primary text-white">
           <div class="card-body">
             <h5 class="card-title text-white">Submit Publication</h5>
@@ -165,6 +175,8 @@ permalink: /publications/
           </div>
         </div>
       </div>
+      <!-- /Sidebar -->
+
     </div>
   </div>
 </section>
