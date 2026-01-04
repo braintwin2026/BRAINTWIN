@@ -76,44 +76,96 @@ permalink: /contact/
         </div>
       </div>
       
-      <div class="col-lg-5">
-        <div class="card border-0 shadow-sm">
-          <div class="card-body p-4">
-            <h5 class="card-title mb-4">Quick Links</h5>
-            
-            <div class="mb-4">
-              <h6><i class="bi bi-briefcase me-2 text-primary"></i>Open Positions</h6>
-              <p class="small text-muted">We are recruiting PhD students, postdocs, and engineers across partner institutions.</p>
-              <a href="#positions" class="btn btn-sm btn-outline-primary">View Opportunities</a>
-            </div>
-            
-            <div class="mb-4">
-              <h6><i class="bi bi-people me-2 text-primary"></i>Collaboration</h6>
-              <p class="small text-muted">Interested in collaborating on digital twin research for neurology?</p>
-              <a href="mailto:braintwin@icm-institute.org" class="btn btn-sm btn-outline-primary">Contact Us</a>
-            </div>
-            
-            <hr>
-            
-            <h6 class="mt-4">Partner Institution Contacts</h6>
-            <ul class="list-unstyled small">
-              <li class="mb-2">
-                <strong>CentraleSupelec:</strong><br>
-                <a href="mailto:maria.vakalopoulou@centralesupelec.fr">maria.vakalopoulou@centralesupelec.fr</a>
-              </li>
-              <li class="mb-2">
-                <strong>Ecole Polytechnique:</strong><br>
-                <a href="mailto:aymeric.dieuleveut@polytechnique.edu">aymeric.dieuleveut@polytechnique.edu</a>
-              </li>
-              <li class="mb-2">
-                <strong>HCL Lyon:</strong><br>
-                <a href="mailto:francois.ducray@chu-lyon.fr">francois.ducray@chu-lyon.fr</a>
-              </li>
+    <div class="col-lg-5">
+    <div class="card border-0 shadow-sm">
+      <div class="card-body p-4">
+        <h5 class="card-title mb-4">Quick Links</h5>
+  
+        <div class="mb-4">
+          <h6><i class="bi bi-briefcase me-2 text-primary"></i>Open Positions</h6>
+          <p class="small text-muted">We are recruiting PhD students, postdocs, and engineers across partner institutions.</p>
+          <a href="#positions" class="btn btn-sm btn-outline-primary">View Opportunities</a>
+        </div>
+  
+        <div class="mb-4">
+          <h6><i class="bi bi-people me-2 text-primary"></i>Collaboration</h6>
+          <p class="small text-muted">Interested in collaborating on digital twin research for neurology?</p>
+          <a href="mailto:braintwin@icm-institute.org" class="btn btn-sm btn-outline-primary">Contact Us</a>
+        </div>
+  
+        <hr>
+  
+        <h6 class="mt-4">Partner Institution Contacts</h6>
+        <p class="small text-muted mb-3">
+          Contacts are shown as <strong>X<sub>i</sub> Y<sub>i</sub></strong>. See the note at the bottom for how to email each contact.
+        </p>
+  
+        <ul class="list-unstyled small">
+  
+          <li class="mb-3">
+            <strong>Paris Brain Institute (ICM):</strong><br>
+            X<sub>1</sub> Y<sub>1</sub>
+          </li>
+  
+          <li class="mb-3">
+            <strong>CentraleSupélec, Univ. Paris-Saclay:</strong><br>
+            X<sub>1</sub> Y<sub>1</sub><br>
+            X<sub>2</sub> Y<sub>2</sub>
+          </li>
+  
+          <li class="mb-3">
+            <strong>École Polytechnique:</strong><br>
+            X<sub>1</sub> Y<sub>1</sub><br>
+            X<sub>2</sub> Y<sub>2</sub><br>
+            X<sub>3</sub> Y<sub>3</sub>
+          </li>
+  
+          <li class="mb-3">
+            <strong>Hospices Civils de Lyon (HCL):</strong><br>
+            X<sub>1</sub> Y<sub>1</sub>
+          </li>
+  
+          <li class="mb-3">
+            <strong>CREATIS-INSA Lyon:</strong><br>
+            X<sub>1</sub> Y<sub>1</sub>
+          </li>
+  
+          <li class="mb-3">
+            <strong>VBHI Bordeaux:</strong><br>
+            X<sub>1</sub> Y<sub>1</sub>
+          </li>
+  
+        </ul>
+  
+        <div class="mt-4 small text-muted">
+          <strong>How to email contacts:</strong><br>
+          Use the format <code>x.y@institution</code>, where:
+          <ul class="mb-0">
+            <li><strong>X</strong> = given name (first name, lowercase)</li>
+            <li><strong>Y</strong> = family name (surname, lowercase)</li>
+            <li><strong>institution</strong> = the institution’s email domain (see below)</li>
+          </ul>
+  
+          <div class="mt-3">
+            <strong>Institution email domains:</strong>
+            <ul class="mb-0">
+              <li>Paris Brain Institute (ICM): <code>icm-institute.org</code></li>
+              <li>CentraleSupélec, Univ. Paris-Saclay: <code>centralesupelec.fr</code></li>
+              <li>École Polytechnique: <code>polytechnique.edu</code></li>
+              <li>Hospices Civils de Lyon (HCL): <code>chu-lyon.fr</code></li>
+              <li>CREATIS-INSA Lyon: <code>creatis.insa-lyon.fr</code></li>
+              <li>VBHI Bordeaux: <code>u-bordeaux.fr</code></li>
             </ul>
           </div>
+  
+          <p class="mt-3 mb-0">
+            Example: <code>x.y@institution</code> (replace <code>x</code>, <code>y</code>, and <code>institution</code> accordingly).
+          </p>
         </div>
+  
       </div>
     </div>
+  </div>
   </div>
 </section>
 
