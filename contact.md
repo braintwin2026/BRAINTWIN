@@ -95,11 +95,11 @@ permalink: /contact/
   
         <hr>
   
-        <h6 class="mt-4">Partner Institution Contacts</h6>
-        <p class="small text-muted mb-3">
-          Each contact is listed by name, followed by the shorthand <strong>X<sub>i</sub> Y<sub>i</sub></strong>.
+        <h6 class="mt-4">
+          <h6><i class="bi bi-people me-2 text-primary"></i>"bi bi-buildings me-2 text-primary"></i>Partner Institution Contacts</h6>
+          <p class="small text-muted mb-3">Each contact is listed by name, followed by the shorthand <strong>X<sub>i</sub> Y<sub>i</sub></strong>.
           See the note at the bottom for how to construct institutional email addresses.
-        </p>
+         </p>
   
         <ul class="list-unstyled small">
   
