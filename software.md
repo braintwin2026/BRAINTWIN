@@ -24,7 +24,7 @@ permalink: /software/
     
     <div class="alert alert-info mb-5">
       <i class="bi bi-info-circle me-2"></i>
-      BRAINTWIN is committed to open science. Software and datasets will be released progressively throughout the project (2025-2029). Stay tuned for updates.
+      BRAINTWIN is committed to open science. Software and datasets will be released progressively throughout the project (2026-2029). Stay tuned for updates.
     </div>
     
     <h2 class="section-title mb-4">Upcoming Releases</h2>
