@@ -21,10 +21,14 @@ permalink: /contact/
 <section class="section">
   <div class="container">
     <div class="row">
+
+      <!-- LEFT COLUMN -->
       <div class="col-lg-7 mb-5 mb-lg-0">
         <h2 class="section-title">Get in Touch</h2>
-        <p class="lead mb-4">We welcome inquiries about collaboration, research opportunities, and general questions about the BRAINTWIN project.</p>
-        
+        <p class="lead mb-4">
+          We welcome inquiries about collaboration, research opportunities, and general questions about the BRAINTWIN project.
+        </p>
+
         <div class="card border-0 shadow-sm mb-4">
           <div class="card-body p-4">
             <h5><i class="bi bi-envelope-fill text-primary me-2"></i>Email</h5>
@@ -34,7 +38,7 @@ permalink: /contact/
             </p>
           </div>
         </div>
-        
+
         <div class="card border-0 shadow-sm mb-4">
           <div class="card-body p-4">
             <h5><i class="bi bi-person-fill text-primary me-2"></i>Project Coordinator</h5>
@@ -45,7 +49,7 @@ permalink: /contact/
             </p>
           </div>
         </div>
-        
+
         <div class="card border-0 shadow-sm mb-4">
           <div class="card-body p-4">
             <h5><i class="bi bi-geo-alt-fill text-primary me-2"></i>Address</h5>
@@ -57,7 +61,7 @@ permalink: /contact/
             </p>
           </div>
         </div>
-        
+
         <div class="card border-0 shadow-sm">
           <div class="card-body p-4">
             <h5><i class="bi bi-share-fill text-primary me-2"></i>Follow Us</h5>
@@ -75,99 +79,108 @@ permalink: /contact/
           </div>
         </div>
       </div>
-      
-    <div class="col-lg-5">
-    <div class="card border-0 shadow-sm">
-      <div class="card-body p-4">
-        <h5 class="card-title mb-4">Quick Links</h5>
-  
-        <div class="mb-4">
-          <h6><i class="bi bi-briefcase me-2 text-primary"></i>Open Positions</h6>
-          <p class="small text-muted">We are recruiting PhD students, postdocs, and engineers across partner institutions.</p>
-          <a href="#positions" class="btn btn-sm btn-outline-primary">View Opportunities</a>
-        </div>
-  
-        <div class="mb-4">
-          <h6><i class="bi bi-people me-2 text-primary"></i>Collaboration</h6>
-          <p class="small text-muted">Interested in collaborating on digital twin research for neurology?</p>
-          <a href="mailto:braintwin@icm-institute.org" class="btn btn-sm btn-outline-primary">Contact Us</a>
-        </div>
-  
-        <hr>
-  
-        <h6 class="mt-4">
-          <h6><i class="bi bi-buildings me-2 text-primary"></i>Partner Institution Contacts</h6>
-          <p class="small text-muted mb-3">Each contact is listed by name, followed by the shorthand <strong>X<sub>i</sub> Y<sub>i</sub></strong>.
-          See the note at the bottom for how to construct institutional email addresses.
-         </p>
-  
-        <ul class="list-unstyled small">
-  
-          <li class="mb-3">
-            <strong>Paris Brain Institute (ICM):</strong><br>
-            Agusti Alentorn — X<sub>1</sub> Y<sub>1</sub>
-          </li>
-  
-          <li class="mb-3">
-            <strong>CentraleSupélec, Univ. Paris-Saclay:</strong><br>
-            Maria Vakalopoulou — X<sub>1</sub> Y<sub>1</sub><br>
-            Stergios Christodoulidis — X<sub>2</sub> Y<sub>2</sub>
-          </li>
-  
-          <li class="mb-3">
-            <strong>École Polytechnique:</strong><br>
-            Aymeric Dieuleveut — X<sub>1</sub> Y<sub>1</sub><br>
-            Vicky Kalogeiton — X<sub>2</sub> Y<sub>2</sub><br>
-            Maks Ovsjanikov — X<sub>3</sub> Y<sub>3</sub>
-          </li>
-  
-          <li class="mb-3">
-            <strong>Hospices Civils de Lyon (HCL):</strong><br>
-            François Ducray — X<sub>1</sub> Y<sub>1</sub>
-          </li>
-  
-          <li class="mb-3">
-            <strong>CREATIS-INSA Lyon:</strong><br>
-            Carole Lartizien — X<sub>1</sub> Y<sub>1</sub>
-          </li>
-  
-          <li class="mb-3">
-            <strong>VBHI Bordeaux:</strong><br>
-            Marc Joliot — X<sub>1</sub> Y<sub>1</sub>
-          </li>
-  
-        </ul>
-  
-        <div class="mt-4 small text-muted">
-          <strong>How to email contacts:</strong><br>
-          Use the format <code>x.y@institution</code>, where:
-          <ul class="mb-0">
-            <li><strong>X</strong> = given name (first name, lowercase)</li>
-            <li><strong>Y</strong> = family name (surname, lowercase)</li>
-            <li><strong>institution</strong> = the institution’s email domain (see below)</li>
-          </ul>
-  
-          <div class="mt-3">
-            <strong>Institution email domains:</strong>
-            <ul class="mb-0">
-              <li>Paris Brain Institute (ICM): <code>icm-institute.org</code></li>
-              <li>CentraleSupélec, Univ. Paris-Saclay: <code>centralesupelec.fr</code></li>
-              <li>École Polytechnique: <code>polytechnique.edu</code></li>
-              <li>Hospices Civils de Lyon (HCL): <code>chu-lyon.fr</code></li>
-              <li>CREATIS-INSA Lyon: <code>creatis.insa-lyon.fr</code></li>
-              <li>VBHI Bordeaux: <code>u-bordeaux.fr</code></li>
+      <!-- /LEFT COLUMN -->
+
+      <!-- RIGHT COLUMN -->
+      <div class="col-lg-5">
+        <div class="card border-0 shadow-sm">
+          <div class="card-body p-4">
+            <h5 class="card-title mb-4">Quick Links</h5>
+
+            <div class="mb-4">
+              <h6 class="mb-2"><i class="bi bi-briefcase me-2 text-primary"></i>Open Positions</h6>
+              <p class="small text-muted mb-2">
+                We are recruiting PhD students, postdocs, and engineers across partner institutions.
+              </p>
+              <a href="#positions" class="btn btn-sm btn-outline-primary">View Opportunities</a>
+            </div>
+
+            <div class="mb-4">
+              <h6 class="mb-2"><i class="bi bi-people me-2 text-primary"></i>Collaboration</h6>
+              <p class="small text-muted mb-2">
+                Interested in collaborating on digital twin research for neurology?
+              </p>
+              <a href="mailto:braintwin@icm-institute.org" class="btn btn-sm btn-outline-primary">Contact Us</a>
+            </div>
+
+            <hr>
+
+            <h6 class="mb-2"><i class="bi bi-buildings me-2 text-primary"></i>Partner Institution Contacts</h6>
+            <p class="small text-muted mb-3">
+              Each contact is listed by name, followed by the shorthand <strong>X<sub>i</sub> Y<sub>i</sub></strong>.
+              See the note at the bottom for how to construct institutional email addresses.
+            </p>
+
+            <ul class="list-unstyled small mb-0">
+              <li class="mb-3">
+                <strong>Paris Brain Institute (ICM):</strong><br>
+                Agusti Alentorn — X<sub>1</sub> Y<sub>1</sub>
+              </li>
+
+              <li class="mb-3">
+                <strong>CentraleSupélec, Univ. Paris-Saclay:</strong><br>
+                Maria Vakalopoulou — X<sub>1</sub> Y<sub>1</sub><br>
+                Stergios Christodoulidis — X<sub>2</sub> Y<sub>2</sub>
+              </li>
+
+              <li class="mb-3">
+                <strong>École Polytechnique:</strong><br>
+                Aymeric Dieuleveut — X<sub>1</sub> Y<sub>1</sub><br>
+                Vicky Kalogeiton — X<sub>2</sub> Y<sub>2</sub><br>
+                Maks Ovsjanikov — X<sub>3</sub> Y<sub>3</sub>
+              </li>
+
+              <li class="mb-3">
+                <strong>Hospices Civils de Lyon (HCL):</strong><br>
+                François Ducray — X<sub>1</sub> Y<sub>1</sub>
+              </li>
+
+              <li class="mb-3">
+                <strong>CREATIS-INSA Lyon:</strong><br>
+                Carole Lartizien — X<sub>1</sub> Y<sub>1</sub>
+              </li>
+
+              <li class="mb-3">
+                <strong>VBHI Bordeaux:</strong><br>
+                Marc Joliot — X<sub>1</sub> Y<sub>1</sub>
+              </li>
             </ul>
+
+            <div class="mt-4 small text-muted">
+              <strong>How to email contacts:</strong><br>
+              Use the format <code>x.y@institution</code>, where:
+              <ul class="mb-0">
+                <li><strong>X</strong> = given name (first name, lowercase)</li>
+                <li><strong>Y</strong> = family name (surname, lowercase)</li>
+                <li><strong>institution</strong> = the institution’s email domain (see below)</li>
+              </ul>
+
+              <div class="mt-3">
+                <strong>Institution email domains:</strong>
+                <ul class="mb-0">
+                  <li>Paris Brain Institute (ICM): <code>icm-institute.org</code></li>
+                  <li>CentraleSupélec, Univ. Paris-Saclay: <code>centralesupelec.fr</code></li>
+                  <li>École Polytechnique: <code>polytechnique.edu</code></li>
+                  <li>Hospices Civils de Lyon (HCL): <code>chu-lyon.fr</code></li>
+                  <li>CREATIS-INSA Lyon: <code>creatis.insa-lyon.fr</code></li>
+                  <li>VBHI Bordeaux: <code>u-bordeaux.fr</code></li>
+                </ul>
+              </div>
+
+              <p class="mt-3 mb-0">
+                Example: <code>x.y@institution</code> (replace <code>x</code>, <code>y</code>, and <code>institution</code> accordingly).
+              </p>
+            </div>
+
           </div>
-  
-          <p class="mt-3 mb-0">
-            Example: <code>x.y@institution</code> (replace <code>x</code>, <code>y</code>, and <code>institution</code> accordingly).
-          </p>
         </div>
-        </div>
-     </div>
+      </div>
+      <!-- /RIGHT COLUMN -->
+
     </div>
   </div>
-  </section>
+</section>
+
 
 <!-- Open Positions -->
 <section class="section section-light" id="positions">
