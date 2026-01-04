@@ -66,12 +66,7 @@ permalink: /contact/
             <div class="mt-2 small">
               <strong>Dr. Agusti Alentorn</strong><br>
               <span class="text-muted">Paris Brain Institute (ICM)</span><br>
-
-              <!-- Real email + shorthand requested -->
-              <a href="mailto:agusti.alentorn@icm-institute.org">agusti.alentorn@icm-institute.org</a>
-              <span class="text-muted">—</span>
-              <span class="text-muted">
-                X<sub>1</sub> Y<sub>1</sub>
+              
               </span>
             </div>
           </div>
