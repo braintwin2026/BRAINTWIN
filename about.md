@@ -30,8 +30,8 @@ permalink: /about/
 
         <p>
           In neurology, where heterogeneity of disease obstructs conventional methods, digital twin technology offers a paradigm shift.
-          For primary brain tumors (gliomas, meningiomas, and primary CNS lymphomas) and cerebral small vessel disease (SVD) — diseases with unpredictable courses and variable treatment outcomes —
-          BRAINTWIN offers a novel architecture for patient-specific digital twin generation.
+          For primary brain tumors (gliomas, meningiomas, and primary CNS lymphomas) and cerebral small vessel disease (SVD), diseases with unpredictable courses and variable treatment 
+          outcomes, BRAINTWIN offers a novel architecture for patient-specific digital twin generation.
         </p>
 
         <h3 class="mt-5">Context and Justification</h3>
