@@ -454,6 +454,24 @@ permalink: /team/
         </a>
         <p class="text-center small mt-2">VHBI Bordeaux / VBHI</p>
       </div>
+      <div class="col-6 col-md-4 col-lg-3" data-aos="fade-up" data-aos-delay="400">
+        <a href="https://www.inserm.fr/" target="_blank" rel="noopener" class="partner-logo d-block">
+          <img src="{{ '/assets/images/INSERM_logo.jpg' | relative_url }}" alt="INSERM">
+        </a>
+        <p class="text-center small mt-2">INSERM</p>
+      </div>
+      <div class="col-6 col-md-4 col-lg-3" data-aos="fade-up" data-aos-delay="400">
+        <a href="https://www.CNRS.fr/" target="_blank" rel="noopener" class="partner-logo d-block">
+          <img src="{{ '/assets/images/CNRS_logo.png' | relative_url }}" alt="CNRS">
+        </a>
+        <p class="text-center small mt-2">CNRS</p>
+      </div>
+      <div class="col-6 col-md-4 col-lg-3" data-aos="fade-up" data-aos-delay="400">
+        <a href="https://www.cea.fr/" target="_blank" rel="noopener" class="partner-logo d-block">
+          <img src="{{ '/assets/images/CEA_logo.jpg' | relative_url }}" alt="CEA">
+        </a>
+        <p class="text-center small mt-2">CEA</p>
+      </div>
     </div>
     
     <div class="alert alert-info mt-5" role="alert">
