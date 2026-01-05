@@ -118,7 +118,7 @@ permalink: /team/
   <!-- WP5 Co-Lead -->
   <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
     <div class="team-card">
-      <img src="{{ '/assets/images/MJ.jpeg' | relative_url }}" alt="Dr. Marc Joliot" class="team-avatar">
+      <img src="{{ '/assets/images/MJ.png' | relative_url }}" alt="Dr. Marc Joliot" class="team-avatar">
       <h4 class="team-name">Dr. Marc Joliot</h4>
       <p class="team-role">WP5 Co-Lead – Bio-imaging &amp; Population Neuroscience</p>
       <p class="team-institution">VBHI Institute / University of Bordeaux</p>
