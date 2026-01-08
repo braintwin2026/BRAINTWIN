@@ -58,7 +58,7 @@ permalink: /about/
           </li>
           <li class="list-group-item px-0">
             <i class="bi bi-check-circle-fill text-primary me-2"></i>
-            Apply Schrodinger-bridge generative modeling for longitudinal disease trajectory prediction
+            Apply innovative generative modeling for longitudinal disease trajectory prediction
           </li>
           <li class="list-group-item px-0">
             <i class="bi bi-check-circle-fill text-primary me-2"></i>
